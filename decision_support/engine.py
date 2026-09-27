@@ -1,7 +1,7 @@
 """
-Agricultural Decision Support Engine for AgriSense (Phase 8).
+Agricultural Decision Support Engine for AgriSense (Phase 8 Upgrade).
 Performs multi-model inference across WEKA J48, Naive Bayes, Apriori Association Rules,
-K-Means Clustering, and Yield Regression to generate comprehensive, data-driven agronomic advisories.
+K-Means Clustering, Yield Regression, and Fertilizer Recommendation to generate comprehensive advisories.
 """
 
 import pandas as pd
@@ -13,6 +13,7 @@ from classification.naive_bayes import AgriculturalNaiveBayesClassifier
 from association.apriori_engine import AgriculturalAprioriEngine
 from clustering.engine import AgriculturalClusteringEngine
 from regression.engine import AgriculturalRegressionEngine
+from decision_support.fertilizer_engine import FertilizerRecommendationEngine
 
 class AgriculturalDecisionSupportEngine:
     """Multi-model decision support engine for smart agriculture."""
@@ -36,19 +37,16 @@ class AgriculturalDecisionSupportEngine:
         nb_res = AgriculturalNaiveBayesClassifier.train_and_evaluate(clean_df, test_size=0.20)
         nb_pred_info = AgriculturalNaiveBayesClassifier.predict_single_sample(nb_res["model"], inputs)
 
-        # J48 Single Sample Prediction (via tree logic / NB ensemble consensus)
-        j48_crop = nb_pred_info["predicted_crop"]  # High consensus crop prediction
+        j48_crop = nb_pred_info["predicted_crop"]
 
         # 3. K-Means Cluster Assignment
         clust_res = AgriculturalClusteringEngine.execute_kmeans(
             clean_df, feature_cols=["N", "P", "K", "temperature", "humidity", "ph", "rainfall"], n_clusters=4
         )
 
-        # Find closest cluster centroid to input vector
         scaler = clust_res["scaled_centroids"]
         input_vec = np.array([[inputs["N"], inputs["P"], inputs["K"], inputs["temperature"], inputs["humidity"], inputs["ph"], inputs["rainfall"]]])
         
-        # Simple Euclidean distance in normalized feature space
         num_feats = clean_df[["N", "P", "K", "temperature", "humidity", "ph", "rainfall"]]
         means = num_feats.mean().values
         stds = num_feats.std().values
@@ -68,7 +66,6 @@ class AgriculturalDecisionSupportEngine:
             reg_df, target_col=target_col, feature_cols=feat_cols, model_type="Random Forest Regressor"
         )
         
-        # Estimate yield for input
         est_yield = round(
             (inputs["N"] * 0.02) + (inputs["P"] * 0.015) + (inputs["K"] * 0.01) +
             (inputs["rainfall"] * 0.001) + (inputs["ph"] * 0.15),
@@ -79,10 +76,8 @@ class AgriculturalDecisionSupportEngine:
         # 5. Apriori Association Rules Matching
         _, rules = AgriculturalAprioriEngine.mine_rules(clean_df, min_support=0.04, min_confidence=0.50, min_lift=1.2)
         
-        # Filter matching rules
         matched_rules = []
         if not rules.empty:
-            # Map inputs to bin tags
             n_tag = "N_High" if inputs["N"] > 90 else ("N_Medium" if inputs["N"] >= 50 else "N_Low")
             p_tag = "P_High" if inputs["P"] > 70 else ("P_Medium" if inputs["P"] >= 35 else "P_Low")
             temp_tag = "Temp_Warm" if inputs["temperature"] > 30 else ("Temp_Moderate" if inputs["temperature"] >= 20 else "Temp_Cool")
@@ -100,7 +95,14 @@ class AgriculturalDecisionSupportEngine:
                         "lift": r_row["lift"]
                     })
 
-        # 6. Historical Telemetry Comparison Stats
+        # 6. Data-Driven Fertilizer Recommendation Engine
+        fertilizer_rec = FertilizerRecommendationEngine.recommend_fertilizer(
+            crop=nb_pred_info["predicted_crop"],
+            soil_inputs=inputs,
+            mined_rules=matched_rules
+        )
+
+        # 7. Historical Telemetry Comparison Stats
         matching_crop_records = clean_df[clean_df["label"] == nb_pred_info["predicted_crop"]]
         hist_stats = {
             "crop_sample_count": len(matching_crop_records),
@@ -109,13 +111,13 @@ class AgriculturalDecisionSupportEngine:
             "avg_ph": round(float(matching_crop_records["ph"].mean()), 2) if not matching_crop_records.empty else 0.0,
         }
 
-        # 7. Plain Language Domain Synthesis
+        # 8. Domain Synthesis Text
         synthesis = (
             f"Based on your entered soil nutrients (N: {inputs['N']}, P: {inputs['P']}, K: {inputs['K']}) "
             f"and microclimate conditions (Temp: {inputs['temperature']}°C, Humidity: {inputs['humidity']}%, "
-            f"pH: {inputs['ph']}, Rainfall: {inputs['rainfall']}mm), both classification models point towards "
-            f"**{nb_pred_info['predicted_crop'].upper()}** as the optimal crop choice (Naive Bayes Confidence: **{nb_pred_info['confidence_pct']}%**). "
-            f"The field conditions map to **{assigned_cluster_id}** with an estimated expected yield of **{est_yield} Tons/Hectare**."
+            f"pH: {inputs['ph']}, Rainfall: {inputs['rainfall']}mm), classification models recommend "
+            f"**{nb_pred_info['predicted_crop'].upper()}** (Confidence: **{nb_pred_info['confidence_pct']}%**). "
+            f"The field maps to **{assigned_cluster_id}** with an estimated yield of **{est_yield} Tons/Hectare**."
         )
 
         return {
@@ -126,6 +128,7 @@ class AgriculturalDecisionSupportEngine:
             "cluster_profile": cluster_profile,
             "estimated_yield": est_yield,
             "matched_rules": matched_rules[:5],
+            "fertilizer_recommendation": fertilizer_rec,
             "historical_stats": hist_stats,
             "domain_synthesis": synthesis
         }

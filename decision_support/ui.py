@@ -1,7 +1,7 @@
 """
-Decision Support System UI Module for AgriSense (Phase 8).
+Decision Support System UI Module for AgriSense.
 Integrates multi-model inference across WEKA J48, Naive Bayes, Apriori Rules,
-K-Means Clustering, and Yield Regression into an interactive agronomic advisory dashboard.
+K-Means Clustering, Yield Regression, and Data-Driven Fertilizer Recommendation.
 """
 
 import streamlit as st
@@ -10,10 +10,10 @@ from utils.helpers import render_header, render_metric_card
 from decision_support.engine import AgriculturalDecisionSupportEngine
 
 def render_decision_support_page(df_raw: pd.DataFrame):
-    """Render Phase 8 Agronomic Decision Support System Advisory dashboard."""
+    """Render Agronomic Decision Support System Advisory dashboard with Fertilizer Recommendations."""
     render_header(
-        "Agronomic Decision Support Engine",
-        "Interactive multi-model decision framework providing data-driven crop selection, cluster profiling, yield estimation, and association rule matching."
+        "Agronomic Decision Support & Fertilizer Engine",
+        "Interactive multi-model decision framework providing data-driven crop selection, fertilizer recommendation, cluster profiling, and yield estimation."
     )
 
     # Disclaimer Box
@@ -47,15 +47,17 @@ def render_decision_support_page(df_raw: pd.DataFrame):
 
     # Execute Multi-Model Inference
     advisory = AgriculturalDecisionSupportEngine.generate_advisory(df_raw, inputs_dict)
+    fert_rec = advisory.get("fertilizer_recommendation", {})
 
     st.markdown("---")
 
     # Multi-Model Recommendation Cards
     m1, m2, m3, m4 = st.columns(4)
     with m1:
-        render_metric_card("WEKA J48 Crop Target", f"{advisory['j48_predicted_crop'].upper()}", "Decision tree inference")
+        render_metric_card("Target Crop (NB)", f"{advisory['nb_predicted_crop'].upper()}", f"Confidence: {advisory['nb_confidence_pct']}%")
     with m2:
-        render_metric_card("Naive Bayes Crop Target", f"{advisory['nb_predicted_crop'].upper()}", f"Confidence: {advisory['nb_confidence_pct']}%")
+        fert_title = fert_rec.get("recommended_fertilizer", "N/A") if fert_rec.get("status") == "SUCCESS" else "Insufficient Data"
+        render_metric_card("Recommended Fertilizer", fert_title, f"Primary Deficit: {fert_rec.get('primary_deficiency', 'N/A')}")
     with m3:
         render_metric_card("Assigned Land Cluster", f"{advisory['assigned_cluster']}", "K-Means segmentation")
     with m4:
@@ -64,8 +66,9 @@ def render_decision_support_page(df_raw: pd.DataFrame):
     st.markdown("---")
 
     # Tabs Layout
-    tab1, tab2, tab3, tab4 = tab1, tab2, tab3, tab4 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Agricultural Analysis & Domain Synthesis",
+        "Data-Driven Fertilizer Recommendation",
         "Matched Association Rules",
         "Cluster Profile & Land Segment",
         "Historical Dataset Comparison"
@@ -82,7 +85,38 @@ def render_decision_support_page(df_raw: pd.DataFrame):
         st.write(f"- **Gaussian Naive Bayes Recommendation**: **{advisory['nb_predicted_crop'].title()}** ({advisory['nb_confidence_pct']}% confidence)")
         st.write(f"- **Predicted Yield Potential**: **{advisory['estimated_yield']} Tons / Hectare**")
 
+        st.markdown("### Market Intelligence Quick Lookup")
+        from market.provider import MarketDataProvider
+        mkt_info = MarketDataProvider.get_crop_market_info(advisory["nb_predicted_crop"])
+        if mkt_info.get("status") == "SUCCESS":
+            st.write(f"- **Latest Market Commodity Price**: **₹ {mkt_info['latest_price']:,.2f} / Quintal** ({mkt_info['market_location']}, Trend: {mkt_info['price_trend']})")
+        else:
+            st.write(f"- **Market Price**: Market registry lookup available in Market Intelligence tab.")
+
     with tab2:
+        st.subheader("Data-Driven Fertilizer Recommendation Engine")
+        st.caption("Fertilizer recommendations derived from historical fertilizer telemetry dataset patterns and nutrient deficit matching:")
+
+        if fert_rec.get("status") == "SUCCESS":
+            f_col1, f_col2, f_col3, f_col4 = st.columns(4)
+            with f_col1:
+                render_metric_card("Selected Crop", f"{fert_rec['crop']}", "Target crop variety")
+            with f_col2:
+                render_metric_card("Fertilizer Product", f"{fert_rec['recommended_fertilizer']}", "Optimal formulation")
+            with f_col3:
+                render_metric_card("Application Rate", f"{fert_rec['recommended_dose_kg_ha']} kg/ha", "Recommended dosage")
+            with f_col4:
+                render_metric_card("Pattern Match Confidence", f"{fert_rec['confidence_score_pct']}%", f"Sample Support: {fert_rec['sample_support_count']} records")
+
+            st.markdown("### Supporting Data & Mined Pattern")
+            st.code(fert_rec["supporting_pattern"], language="text")
+
+            st.markdown("### Agronomic Rationale & Explanation")
+            st.markdown(fert_rec["explanation"])
+        else:
+            st.warning(fert_rec.get("message", "Insufficient historical data for a reliable recommendation."))
+
+    with tab3:
         st.subheader("Matched Association Rules from Dataset")
         st.caption("Co-occurrence patterns mined via Apriori matching your input nutrient and environmental parameters:")
         matched = advisory["matched_rules"]
@@ -93,14 +127,14 @@ def render_decision_support_page(df_raw: pd.DataFrame):
         else:
             st.info("No matching high-lift association rules found for the specified input combination.")
 
-    with tab3:
+    with tab4:
         st.subheader("Assigned Cluster Profile & Mean Characteristics")
         st.caption(f"Un-scaled mean attribute values for assigned **{advisory['assigned_cluster']}**:")
         prof = advisory["cluster_profile"]
         prof_df = pd.DataFrame([prof])
         st.dataframe(prof_df, use_container_width=True)
 
-    with tab4:
+    with tab5:
         st.subheader("Historical Telemetry Comparison")
         st.caption(f"Comparison of your input values against historical records for **{advisory['nb_predicted_crop'].title()}** in dataset:")
 

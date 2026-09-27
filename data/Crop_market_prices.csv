@@ -1,0 +1,23 @@
+Crop,Market_Location,Latest_Price_Per_Quintal,Historical_Min_Price,Historical_Max_Price,Price_Trend,Currency,Data_Source,Last_Updated
+rice,East Regional Grain Hub,3948.98,3204.3,3987.58,Stable,INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+maize,East Regional Grain Hub,4596.37,4144.68,5157.82,Downward (-1.1%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+chickpea,East Regional Grain Hub,6060.34,5283.93,6575.55,Stable,INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+kidneybeans,South District Market,6887.22,5722.72,7121.61,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+pigeonpeas,Central Agriculture Yard,2573.98,2395.8,2981.44,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+mothbeans,South District Market,1937.88,1717.55,2137.4,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+mungbean,East Regional Grain Hub,6065.54,5738.99,7141.85,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+blackgram,East Regional Grain Hub,4344.8,3795.21,4722.93,Stable,INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+lentil,South District Market,4364.56,4189.91,5214.12,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+pomegranate,South District Market,6377.35,5605.51,6975.75,Upward (+2.4%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+banana,West Terminal Market,1782.79,1687.54,2100.05,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+mango,East Regional Grain Hub,2394.8,2136.22,2658.41,Upward (+2.4%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+grapes,South District Market,3154.28,2714.64,3378.22,Stable (+0.2%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+watermelon,South District Market,4052.15,4021.37,5004.37,Stable (+0.2%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+muskmelon,West Terminal Market,3862.7,3522.46,4383.51,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+apple,Central Agriculture Yard,1955.36,1811.31,2254.08,Stable (+0.2%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+orange,North Central Mandi,4462.68,3902.9,4856.94,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+papaya,Central Agriculture Yard,4470.28,4187.75,5211.43,Stable,INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+coconut,North Central Mandi,2402.23,1935.35,2408.43,Upward (+1.8%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+cotton,East Regional Grain Hub,2871.3,2861.45,3560.92,Upward (+2.4%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+jute,East Regional Grain Hub,5523.08,4628.98,5760.5,Stable,INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC
+coffee,West Terminal Market,6419.68,5538.25,6892.05,Upward (+2.4%),INR / Quintal,Public Agricultural Commodity Price Registry,2026-09-27 06:00 UTC

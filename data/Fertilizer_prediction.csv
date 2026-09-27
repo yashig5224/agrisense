@@ -1,0 +1,551 @@
+Crop,Soil_Type,Nitrogen_N,Phosphorous_P,Potassium_K,Temperature,Humidity,Moisture,Fertilizer_Name,Nutrient_Deficiency,Recommended_Dose_kg_ha
+rice,Black Soil,15.5,37.3,69.6,37.0,80.3,55.9,28-28-0,Nitrogen,88.6
+rice,Sandy,16.4,42.3,47.2,18.4,93.3,69.9,28-28-0,Nitrogen,80.4
+rice,Clay,22.8,53.2,66.4,23.8,73.7,28.4,Urea,Nitrogen,102.9
+rice,Black Soil,12.3,73.0,73.6,29.8,42.6,56.5,28-28-0,Nitrogen,103.1
+rice,Loam,27.3,36.4,71.4,20.0,77.6,46.4,28-28-0,Nitrogen,90.9
+rice,Black Soil,43.9,66.0,72.6,24.2,68.6,52.8,28-28-0,Nitrogen,135.6
+rice,Black Soil,39.0,49.3,46.2,18.9,57.9,43.3,28-28-0,Nitrogen,96.6
+rice,Alluvial,61.9,35.2,26.3,34.0,44.1,79.2,MOP,Potassium,75.6
+rice,Sandy,40.2,59.9,48.2,33.4,44.1,41.5,28-28-0,Nitrogen,102.2
+rice,Alluvial,57.2,24.3,65.4,32.6,75.1,73.2,14-35-14,Phosphorus,61.8
+rice,Sandy,11.1,60.5,47.6,28.5,63.5,21.5,28-28-0,Nitrogen,121.7
+rice,Alluvial,12.7,46.6,41.4,23.0,62.6,65.3,28-28-0,Nitrogen,117.5
+rice,Clay,103.0,16.5,39.9,20.1,65.1,33.1,DAP,Phosphorus,65.9
+rice,Clay,68.3,13.3,56.4,23.4,75.6,20.0,14-35-14,Phosphorus,61.1
+rice,Sandy,29.5,51.2,37.6,23.4,53.4,30.1,28-28-0,Nitrogen,137.7
+rice,Loam,44.2,51.4,36.3,32.2,48.1,79.9,28-28-0,Nitrogen,134.5
+rice,Sandy,85.6,11.6,49.8,31.6,69.2,46.9,DAP,Phosphorus,86.4
+rice,Alluvial,39.2,47.8,42.5,30.6,74.8,52.1,Urea,Nitrogen,131.5
+rice,Black Soil,32.6,42.0,62.6,31.6,40.9,50.7,28-28-0,Nitrogen,111.1
+rice,Clay,91.7,14.6,42.0,31.5,80.4,32.5,DAP,Phosphorus,75.8
+rice,Clay,85.3,50.2,50.5,22.8,45.1,73.8,NPK Fertilizer,Balanced,55.4
+rice,Black Soil,15.7,70.9,59.3,35.7,82.9,58.5,Urea,Nitrogen,102.3
+rice,Clay,91.5,23.0,44.0,31.3,40.3,29.6,DAP,Phosphorus,50.9
+rice,Alluvial,68.5,56.7,20.2,21.6,60.2,64.7,10-26-26,Potassium,53.3
+rice,Alluvial,88.7,23.4,69.6,27.7,89.8,46.1,DAP,Phosphorus,75.0
+maize,Black Soil,98.2,67.4,51.1,18.5,75.5,30.6,17-17-17,Balanced,58.6
+maize,Alluvial,67.7,50.4,27.0,26.6,93.2,77.8,17-17-17,Potassium,48.5
+maize,Clay,17.3,61.8,49.3,25.9,86.4,75.8,Urea,Nitrogen,111.1
+maize,Loam,83.2,46.9,18.4,24.5,86.7,28.2,10-26-26,Potassium,83.4
+maize,Alluvial,12.5,50.9,37.0,19.6,40.3,57.7,Urea,Nitrogen,100.3
+maize,Black Soil,15.4,74.3,68.6,29.6,64.1,60.3,28-28-0,Nitrogen,81.8
+maize,Black Soil,39.0,45.9,73.6,18.8,56.7,52.2,Urea,Nitrogen,85.1
+maize,Alluvial,14.6,73.8,63.6,21.9,62.6,62.0,Urea,Nitrogen,127.7
+maize,Sandy,93.4,60.9,52.3,26.8,44.3,21.5,NPK Fertilizer,Balanced,57.5
+maize,Loam,85.5,55.5,59.7,22.8,45.2,31.0,17-17-17,Balanced,48.4
+maize,Sandy,14.1,36.8,36.6,23.0,59.6,65.5,28-28-0,Nitrogen,138.8
+maize,Alluvial,60.4,18.7,50.9,27.5,45.4,49.5,14-35-14,Phosphorus,97.5
+maize,Black Soil,101.4,23.2,41.5,18.9,60.6,57.6,SSP,Phosphorus,97.2
+maize,Black Soil,88.6,19.2,56.8,29.7,91.7,54.5,DAP,Phosphorus,81.3
+maize,Clay,13.5,35.7,38.8,37.2,89.8,31.7,Urea,Nitrogen,100.2
+maize,Loam,66.9,39.7,23.9,24.4,86.5,21.4,MOP,Potassium,86.8
+maize,Black Soil,84.1,21.5,64.3,26.4,93.2,52.9,14-35-14,Phosphorus,62.5
+maize,Alluvial,23.2,56.4,54.9,22.8,77.4,64.4,Urea,Nitrogen,99.2
+maize,Sandy,71.3,73.3,23.5,20.0,42.9,77.5,17-17-17,Potassium,64.7
+maize,Alluvial,43.1,66.3,39.5,19.8,73.1,53.2,Urea,Nitrogen,109.7
+maize,Loam,15.0,65.5,59.7,26.8,88.8,41.1,Urea,Nitrogen,130.3
+maize,Alluvial,28.0,44.3,58.3,22.5,61.8,73.5,Urea,Nitrogen,102.2
+maize,Black Soil,92.5,19.6,50.1,22.7,89.9,55.5,SSP,Phosphorus,71.2
+maize,Loam,84.3,24.8,65.7,24.6,63.9,35.2,SSP,Phosphorus,82.5
+maize,Clay,55.0,20.6,52.5,31.6,53.1,44.0,14-35-14,Phosphorus,50.6
+chickpea,Alluvial,63.0,56.6,69.1,18.9,89.0,51.7,NPK Fertilizer,Balanced,35.0
+chickpea,Clay,104.1,10.9,46.2,31.9,65.0,57.7,14-35-14,Phosphorus,72.8
+chickpea,Black Soil,63.8,15.3,49.4,24.7,49.3,58.8,SSP,Phosphorus,84.9
+chickpea,Clay,14.7,38.0,72.6,23.6,62.6,56.2,Urea,Nitrogen,123.5
+chickpea,Clay,10.9,50.1,67.4,26.4,91.3,72.0,28-28-0,Nitrogen,139.1
+chickpea,Sandy,100.3,53.7,18.3,29.9,60.9,78.2,MOP,Potassium,40.7
+chickpea,Black Soil,96.1,28.9,69.0,34.3,95.0,79.8,DAP,Phosphorus,62.1
+chickpea,Clay,33.5,59.7,49.3,20.6,92.5,56.4,28-28-0,Nitrogen,81.3
+chickpea,Loam,83.1,57.4,27.5,28.4,82.5,51.2,MOP,Potassium,69.5
+chickpea,Alluvial,10.5,49.0,58.6,30.4,78.7,32.8,28-28-0,Nitrogen,113.3
+chickpea,Sandy,73.8,59.9,27.2,36.1,59.2,50.8,MOP,Potassium,79.8
+chickpea,Loam,108.8,19.9,48.2,36.5,67.1,35.5,SSP,Phosphorus,79.0
+chickpea,Sandy,14.9,60.6,42.3,19.5,47.1,27.7,28-28-0,Nitrogen,104.7
+chickpea,Sandy,38.8,48.8,48.9,28.3,93.5,56.1,28-28-0,Nitrogen,85.3
+chickpea,Clay,21.6,47.9,38.7,28.7,59.6,73.7,Urea,Nitrogen,117.7
+chickpea,Sandy,94.9,42.4,14.2,36.4,43.4,36.6,17-17-17,Potassium,86.2
+chickpea,Loam,15.2,40.3,62.5,33.2,69.2,63.2,Urea,Nitrogen,110.7
+chickpea,Black Soil,19.4,50.1,35.8,20.1,64.6,52.0,Urea,Nitrogen,130.4
+chickpea,Loam,71.3,23.0,54.2,28.7,52.8,40.6,SSP,Phosphorus,86.8
+chickpea,Clay,86.5,44.8,20.0,29.3,60.8,40.2,10-26-26,Potassium,70.3
+chickpea,Clay,101.0,11.8,67.2,18.2,52.4,41.9,SSP,Phosphorus,92.1
+chickpea,Sandy,23.9,73.8,69.6,28.5,62.6,78.9,28-28-0,Nitrogen,138.5
+chickpea,Sandy,100.3,14.1,73.7,34.4,79.5,52.1,SSP,Phosphorus,60.0
+chickpea,Black Soil,30.3,41.2,54.2,22.8,46.3,56.6,Urea,Nitrogen,115.6
+chickpea,Loam,34.0,38.5,40.6,27.1,70.2,52.9,Urea,Nitrogen,125.6
+kidneybeans,Sandy,39.8,64.8,51.3,27.5,73.3,67.7,Urea,Nitrogen,123.9
+kidneybeans,Clay,52.9,66.3,26.6,22.1,60.9,75.6,MOP,Potassium,50.1
+kidneybeans,Sandy,71.5,27.5,50.7,21.3,84.8,59.9,SSP,Phosphorus,85.7
+kidneybeans,Sandy,71.3,17.8,56.3,30.5,69.7,46.3,DAP,Phosphorus,95.3
+kidneybeans,Sandy,91.6,41.7,27.6,28.9,63.7,40.0,MOP,Potassium,66.7
+kidneybeans,Sandy,36.0,36.3,57.8,33.8,48.3,38.7,28-28-0,Nitrogen,109.6
+kidneybeans,Loam,57.6,50.9,25.9,24.8,85.2,26.6,MOP,Potassium,64.3
+kidneybeans,Black Soil,82.6,45.1,16.9,32.4,79.6,58.5,17-17-17,Potassium,88.0
+kidneybeans,Loam,86.7,10.4,69.9,36.9,48.4,55.2,DAP,Phosphorus,96.1
+kidneybeans,Loam,13.6,68.6,71.4,33.4,60.6,24.1,Urea,Nitrogen,86.8
+kidneybeans,Alluvial,20.9,44.1,59.3,21.3,50.2,70.2,Urea,Nitrogen,83.3
+kidneybeans,Clay,24.5,69.5,71.9,22.1,83.3,56.2,Urea,Nitrogen,100.8
+kidneybeans,Loam,69.9,57.3,45.0,36.4,72.3,22.0,17-17-17,Balanced,57.4
+kidneybeans,Clay,28.0,74.0,53.4,33.6,55.3,33.2,28-28-0,Nitrogen,104.9
+kidneybeans,Black Soil,23.9,52.1,67.0,28.7,50.1,38.0,28-28-0,Nitrogen,92.3
+kidneybeans,Alluvial,67.6,24.3,56.1,30.5,60.8,70.2,14-35-14,Phosphorus,72.0
+kidneybeans,Loam,12.6,65.1,45.9,27.9,82.1,26.2,Urea,Nitrogen,118.6
+kidneybeans,Black Soil,74.5,57.1,15.1,34.0,93.8,70.4,17-17-17,Potassium,73.6
+kidneybeans,Alluvial,83.4,63.8,26.1,29.9,58.7,54.2,10-26-26,Potassium,70.2
+kidneybeans,Sandy,69.4,11.7,60.3,37.3,91.9,28.5,DAP,Phosphorus,60.4
+kidneybeans,Sandy,104.6,60.0,16.7,20.5,88.2,58.6,17-17-17,Potassium,59.0
+kidneybeans,Black Soil,101.7,14.4,74.0,34.6,59.0,66.4,DAP,Phosphorus,93.4
+kidneybeans,Sandy,19.4,56.7,60.3,35.9,84.0,45.5,Urea,Nitrogen,93.1
+kidneybeans,Sandy,91.0,67.9,20.6,26.4,47.3,74.0,10-26-26,Potassium,68.8
+kidneybeans,Loam,10.4,40.5,71.0,29.1,75.8,69.8,28-28-0,Nitrogen,123.9
+pigeonpeas,Loam,76.8,51.5,55.6,30.0,76.6,30.5,NPK Fertilizer,Balanced,40.6
+pigeonpeas,Sandy,39.3,52.5,71.6,21.7,45.0,66.3,Urea,Nitrogen,97.8
+pigeonpeas,Sandy,26.9,45.8,56.6,37.0,61.8,77.2,Urea,Nitrogen,115.7
+pigeonpeas,Sandy,78.5,16.9,49.1,34.9,92.5,29.3,DAP,Phosphorus,74.8
+pigeonpeas,Sandy,10.1,73.7,35.2,30.0,65.3,24.6,28-28-0,Nitrogen,101.7
+pigeonpeas,Black Soil,81.3,38.5,29.2,34.1,92.9,67.4,17-17-17,Potassium,76.6
+pigeonpeas,Alluvial,96.1,59.4,60.8,33.2,79.8,58.2,17-17-17,Balanced,58.3
+pigeonpeas,Loam,68.8,12.4,64.2,29.8,95.0,53.3,SSP,Phosphorus,96.2
+pigeonpeas,Loam,25.9,55.9,60.8,26.4,83.7,64.7,28-28-0,Nitrogen,115.8
+pigeonpeas,Sandy,76.5,18.1,57.9,29.2,66.5,73.1,DAP,Phosphorus,76.9
+pigeonpeas,Clay,75.1,53.5,29.8,32.8,68.6,45.6,17-17-17,Potassium,83.7
+pigeonpeas,Alluvial,11.8,38.5,36.5,25.7,91.3,24.2,28-28-0,Nitrogen,117.7
+pigeonpeas,Black Soil,94.3,14.8,39.4,37.7,82.3,45.1,14-35-14,Phosphorus,64.9
+pigeonpeas,Loam,44.6,52.1,50.4,23.9,52.8,22.5,28-28-0,Nitrogen,87.5
+pigeonpeas,Sandy,102.7,28.9,53.7,37.0,83.2,25.4,DAP,Phosphorus,99.5
+pigeonpeas,Black Soil,39.1,39.8,36.9,19.3,62.1,70.3,Urea,Nitrogen,93.2
+pigeonpeas,Clay,63.0,20.4,58.9,37.1,85.4,68.0,DAP,Phosphorus,58.7
+pigeonpeas,Loam,77.8,59.9,25.0,28.3,67.0,79.8,MOP,Potassium,69.6
+pigeonpeas,Alluvial,41.1,73.2,69.5,19.8,88.3,35.9,Urea,Nitrogen,99.7
+pigeonpeas,Clay,65.6,24.5,54.8,29.0,44.8,44.5,14-35-14,Phosphorus,98.1
+pigeonpeas,Alluvial,81.0,71.3,21.4,35.9,94.5,23.7,10-26-26,Potassium,67.2
+pigeonpeas,Alluvial,101.0,69.7,24.2,23.3,88.3,67.8,17-17-17,Potassium,51.9
+pigeonpeas,Alluvial,40.8,69.9,36.2,31.6,74.0,65.2,Urea,Nitrogen,80.3
+pigeonpeas,Sandy,95.4,15.2,42.7,22.6,90.0,20.1,DAP,Phosphorus,80.8
+pigeonpeas,Clay,38.7,40.1,46.3,29.2,46.4,42.6,Urea,Nitrogen,112.5
+mothbeans,Loam,42.8,62.5,37.7,24.8,74.8,75.9,Urea,Nitrogen,90.0
+mothbeans,Black Soil,52.7,27.4,73.9,19.3,72.0,40.8,DAP,Phosphorus,72.3
+mothbeans,Sandy,21.3,54.5,65.8,20.6,81.7,21.5,28-28-0,Nitrogen,80.1
+mothbeans,Loam,59.8,25.9,62.7,23.5,94.8,45.6,14-35-14,Phosphorus,88.6
+mothbeans,Black Soil,25.1,72.7,51.8,31.1,55.0,77.1,Urea,Nitrogen,137.9
+mothbeans,Sandy,63.8,43.5,10.6,23.5,94.1,44.6,MOP,Potassium,75.7
+mothbeans,Loam,40.4,66.1,65.8,35.3,66.0,78.1,28-28-0,Nitrogen,111.8
+mothbeans,Sandy,67.4,53.9,40.0,33.9,56.2,74.7,17-17-17,Balanced,33.8
+mothbeans,Black Soil,32.8,48.0,58.6,23.0,70.7,33.5,28-28-0,Nitrogen,98.6
+mothbeans,Alluvial,108.5,24.4,61.3,21.0,65.6,60.8,DAP,Phosphorus,93.0
+mothbeans,Clay,44.5,40.7,55.0,18.8,66.4,26.3,28-28-0,Nitrogen,92.6
+mothbeans,Clay,55.3,17.0,36.3,29.2,40.5,39.6,14-35-14,Phosphorus,69.8
+mothbeans,Loam,52.5,61.8,29.0,37.5,51.0,61.6,MOP,Potassium,75.3
+mothbeans,Clay,102.3,63.6,26.0,36.7,42.9,52.5,10-26-26,Potassium,70.6
+mothbeans,Sandy,88.6,20.5,64.3,35.9,70.1,69.0,SSP,Phosphorus,86.2
+mothbeans,Black Soil,44.2,48.5,42.3,22.9,48.8,72.3,Urea,Nitrogen,106.0
+mothbeans,Sandy,29.0,54.7,38.3,21.2,41.1,59.2,Urea,Nitrogen,120.8
+mothbeans,Alluvial,43.6,51.6,68.8,26.4,51.2,70.4,Urea,Nitrogen,100.8
+mothbeans,Black Soil,85.3,10.6,50.8,33.4,67.8,52.6,14-35-14,Phosphorus,79.9
+mothbeans,Black Soil,68.4,58.7,58.9,26.4,55.2,55.5,17-17-17,Balanced,37.1
+mothbeans,Loam,44.0,42.2,69.2,32.3,90.0,30.8,Urea,Nitrogen,106.2
+mothbeans,Black Soil,55.7,61.1,16.2,26.1,72.6,54.8,10-26-26,Potassium,82.9
+mothbeans,Alluvial,78.2,47.1,42.2,24.5,82.5,27.9,NPK Fertilizer,Balanced,39.9
+mothbeans,Alluvial,31.6,63.3,41.7,24.7,85.6,45.9,28-28-0,Nitrogen,102.8
+mothbeans,Sandy,98.3,58.4,27.4,32.7,76.5,48.5,17-17-17,Potassium,45.6
+mungbean,Loam,32.4,44.0,42.2,37.7,46.8,33.9,Urea,Nitrogen,99.0
+mungbean,Clay,91.2,10.3,47.9,29.7,77.9,43.8,DAP,Phosphorus,93.4
+mungbean,Sandy,20.8,63.2,43.1,27.8,76.7,28.4,Urea,Nitrogen,89.7
+mungbean,Alluvial,60.6,62.7,26.8,19.9,77.0,46.6,10-26-26,Potassium,58.7
+mungbean,Loam,56.8,66.8,28.4,22.9,85.7,71.9,MOP,Potassium,50.8
+mungbean,Alluvial,31.2,47.7,69.7,31.3,71.7,40.9,Urea,Nitrogen,132.2
+mungbean,Clay,95.9,72.0,18.8,19.8,55.9,26.5,10-26-26,Potassium,78.1
+mungbean,Clay,32.7,48.1,60.2,24.3,87.8,42.5,28-28-0,Nitrogen,103.8
+mungbean,Alluvial,76.7,10.3,58.5,25.6,70.2,55.8,14-35-14,Phosphorus,82.1
+mungbean,Loam,78.8,10.5,48.6,27.3,60.9,71.8,DAP,Phosphorus,69.9
+mungbean,Alluvial,94.8,24.3,55.8,22.9,66.2,43.7,DAP,Phosphorus,59.8
+mungbean,Alluvial,42.7,49.1,39.1,36.0,53.4,75.6,Urea,Nitrogen,117.0
+mungbean,Alluvial,68.7,22.2,63.6,23.7,56.9,68.2,DAP,Phosphorus,98.8
+mungbean,Loam,28.4,63.4,39.3,20.4,50.0,60.9,28-28-0,Nitrogen,91.1
+mungbean,Black Soil,81.6,12.2,35.1,26.5,44.8,68.9,14-35-14,Phosphorus,91.0
+mungbean,Black Soil,100.4,28.0,49.1,22.6,51.7,56.7,14-35-14,Phosphorus,62.8
+mungbean,Black Soil,55.7,60.0,19.0,23.5,85.2,45.4,10-26-26,Potassium,47.6
+mungbean,Clay,10.8,60.7,59.3,32.7,87.5,33.0,28-28-0,Nitrogen,118.3
+mungbean,Clay,65.5,60.9,52.1,25.8,72.7,49.8,NPK Fertilizer,Balanced,43.4
+mungbean,Clay,35.4,58.1,46.0,31.8,94.5,27.7,28-28-0,Nitrogen,95.9
+mungbean,Alluvial,22.4,37.8,55.8,35.9,50.6,39.4,28-28-0,Nitrogen,120.2
+mungbean,Black Soil,82.0,48.0,16.7,22.7,69.7,72.8,10-26-26,Potassium,42.6
+mungbean,Black Soil,53.6,21.2,73.3,31.2,70.7,63.8,DAP,Phosphorus,81.7
+mungbean,Clay,50.1,47.0,29.6,21.4,62.5,45.4,17-17-17,Potassium,86.4
+mungbean,Alluvial,96.1,44.7,23.4,20.4,93.6,21.2,10-26-26,Potassium,52.9
+blackgram,Clay,14.1,44.1,48.7,30.2,67.9,29.6,Urea,Nitrogen,85.3
+blackgram,Sandy,43.0,69.9,41.5,22.8,68.0,69.5,28-28-0,Nitrogen,109.8
+blackgram,Black Soil,38.6,50.2,70.1,35.0,51.5,75.8,28-28-0,Nitrogen,123.3
+blackgram,Sandy,60.4,23.9,48.8,33.8,56.8,24.9,14-35-14,Phosphorus,82.0
+blackgram,Clay,58.4,28.0,68.2,29.5,66.4,38.8,SSP,Phosphorus,97.6
+blackgram,Clay,64.0,11.6,66.1,31.3,46.7,48.7,DAP,Phosphorus,96.8
+blackgram,Black Soil,31.7,61.0,41.1,26.8,45.8,58.4,Urea,Nitrogen,113.9
+blackgram,Loam,34.3,74.3,44.6,27.2,43.2,79.7,Urea,Nitrogen,84.5
+blackgram,Black Soil,27.8,74.9,67.6,24.1,45.6,61.5,Urea,Nitrogen,93.2
+blackgram,Alluvial,41.0,53.0,42.8,30.5,69.0,45.6,Urea,Nitrogen,111.5
+blackgram,Alluvial,24.7,66.6,58.3,25.7,93.0,34.9,Urea,Nitrogen,88.2
+blackgram,Alluvial,92.1,68.8,54.6,22.3,40.7,34.5,17-17-17,Balanced,38.0
+blackgram,Sandy,59.0,16.5,64.5,27.1,86.4,25.9,SSP,Phosphorus,68.8
+blackgram,Black Soil,13.6,61.3,72.7,35.2,61.6,77.4,28-28-0,Nitrogen,106.3
+blackgram,Alluvial,99.5,54.8,17.7,23.6,91.2,35.2,10-26-26,Potassium,71.8
+blackgram,Clay,80.7,62.2,10.8,19.3,68.5,29.0,MOP,Potassium,77.3
+blackgram,Clay,89.5,50.6,48.9,19.4,43.9,20.7,17-17-17,Balanced,59.1
+blackgram,Sandy,33.1,65.6,45.6,31.2,50.2,30.4,28-28-0,Nitrogen,85.0
+blackgram,Black Soil,86.7,40.3,47.7,36.0,83.0,33.7,NPK Fertilizer,Balanced,53.2
+blackgram,Clay,14.4,54.0,39.6,37.2,66.3,73.7,Urea,Nitrogen,114.9
+blackgram,Black Soil,55.7,17.5,57.0,21.1,42.4,26.6,14-35-14,Phosphorus,80.6
+blackgram,Black Soil,88.7,46.4,26.3,22.8,46.7,31.8,17-17-17,Potassium,84.0
+blackgram,Black Soil,100.5,24.6,66.1,36.4,53.9,65.3,SSP,Phosphorus,66.0
+blackgram,Sandy,34.0,38.7,73.6,23.4,69.7,63.7,Urea,Nitrogen,110.4
+blackgram,Black Soil,67.9,21.3,62.6,32.7,69.8,55.4,SSP,Phosphorus,78.9
+lentil,Clay,18.6,64.1,74.7,33.2,48.8,47.7,28-28-0,Nitrogen,91.6
+lentil,Loam,86.9,62.5,17.5,31.2,57.1,64.5,MOP,Potassium,67.7
+lentil,Loam,43.5,49.7,48.1,33.2,41.9,64.7,Urea,Nitrogen,130.5
+lentil,Sandy,103.2,58.7,17.8,37.9,60.3,46.9,MOP,Potassium,40.1
+lentil,Alluvial,74.1,27.5,55.4,18.6,49.2,30.9,SSP,Phosphorus,53.2
+lentil,Loam,98.3,45.8,26.5,29.2,70.8,56.2,MOP,Potassium,71.8
+lentil,Sandy,97.3,55.7,18.8,19.2,58.4,67.1,10-26-26,Potassium,56.4
+lentil,Clay,109.9,72.3,22.9,19.8,52.1,55.9,MOP,Potassium,71.9
+lentil,Black Soil,73.0,57.9,21.8,33.7,46.5,44.6,MOP,Potassium,68.3
+lentil,Loam,66.4,55.7,16.0,24.7,41.4,21.5,MOP,Potassium,42.8
+lentil,Sandy,38.1,53.3,54.3,26.6,88.0,70.5,28-28-0,Nitrogen,117.9
+lentil,Loam,17.9,40.3,51.0,36.2,82.9,20.4,28-28-0,Nitrogen,119.4
+lentil,Black Soil,19.7,46.0,66.5,18.3,55.6,22.7,28-28-0,Nitrogen,96.3
+lentil,Loam,52.8,59.8,21.2,34.9,54.7,29.4,MOP,Potassium,66.6
+lentil,Clay,82.9,40.1,27.6,33.4,44.8,34.2,MOP,Potassium,42.6
+lentil,Black Soil,65.8,61.8,45.7,33.8,74.3,49.7,17-17-17,Balanced,43.9
+lentil,Clay,35.2,51.7,38.6,36.9,93.2,31.0,28-28-0,Nitrogen,113.7
+lentil,Clay,97.5,21.0,59.5,37.6,52.5,44.2,14-35-14,Phosphorus,72.9
+lentil,Clay,13.4,69.5,53.4,26.6,47.8,59.9,Urea,Nitrogen,112.7
+lentil,Black Soil,70.4,27.4,56.8,25.1,93.8,67.6,14-35-14,Phosphorus,87.7
+lentil,Alluvial,82.4,62.5,56.7,31.2,48.9,35.3,NPK Fertilizer,Balanced,32.0
+lentil,Sandy,33.0,67.9,50.2,36.2,69.6,49.9,Urea,Nitrogen,106.5
+lentil,Sandy,84.7,60.4,26.0,22.1,68.8,37.2,17-17-17,Potassium,49.8
+lentil,Loam,40.0,71.2,46.1,21.2,78.3,67.6,28-28-0,Nitrogen,110.4
+lentil,Black Soil,59.1,52.6,22.3,22.0,50.1,73.6,10-26-26,Potassium,82.8
+pomegranate,Clay,109.0,23.4,60.4,34.1,67.8,78.0,14-35-14,Phosphorus,99.0
+pomegranate,Sandy,93.2,27.8,38.2,21.2,40.7,53.6,DAP,Phosphorus,98.7
+pomegranate,Black Soil,68.9,53.8,26.4,35.2,85.0,52.4,MOP,Potassium,57.9
+pomegranate,Loam,14.0,38.5,63.8,34.4,88.4,51.5,Urea,Nitrogen,88.5
+pomegranate,Clay,84.6,24.8,67.2,32.8,50.5,56.8,14-35-14,Phosphorus,99.0
+pomegranate,Sandy,10.1,62.3,41.7,18.6,80.7,26.4,28-28-0,Nitrogen,93.6
+pomegranate,Sandy,11.2,47.2,61.1,31.9,68.2,38.3,28-28-0,Nitrogen,134.2
+pomegranate,Clay,41.8,61.8,57.4,33.3,83.4,59.9,Urea,Nitrogen,103.4
+pomegranate,Black Soil,78.7,35.7,18.4,25.6,47.1,44.8,10-26-26,Potassium,85.9
+pomegranate,Clay,51.1,73.5,24.5,23.8,90.1,65.2,17-17-17,Potassium,71.4
+pomegranate,Clay,82.4,38.9,14.8,23.6,88.0,26.8,MOP,Potassium,63.4
+pomegranate,Clay,85.9,37.6,27.5,34.5,44.1,33.6,10-26-26,Potassium,73.4
+pomegranate,Clay,67.1,52.2,15.4,37.8,74.4,51.9,10-26-26,Potassium,82.8
+pomegranate,Alluvial,13.3,71.4,61.8,19.3,85.7,55.9,Urea,Nitrogen,83.9
+pomegranate,Clay,78.6,44.1,50.2,18.5,78.2,24.9,NPK Fertilizer,Balanced,43.3
+pomegranate,Alluvial,27.9,39.2,50.4,30.6,72.5,62.2,Urea,Nitrogen,138.2
+pomegranate,Black Soil,88.0,11.4,45.2,37.0,73.0,64.6,DAP,Phosphorus,52.0
+pomegranate,Loam,78.4,22.5,53.8,36.1,53.1,48.2,DAP,Phosphorus,73.7
+pomegranate,Clay,11.3,39.3,48.6,28.3,40.3,20.5,Urea,Nitrogen,106.3
+pomegranate,Loam,31.6,39.6,48.8,23.9,91.2,43.8,Urea,Nitrogen,114.5
+pomegranate,Alluvial,66.6,51.7,61.9,31.5,42.5,47.0,NPK Fertilizer,Balanced,57.2
+pomegranate,Alluvial,107.2,63.9,27.3,23.2,77.1,37.8,10-26-26,Potassium,42.6
+pomegranate,Alluvial,33.3,67.0,61.5,34.6,42.2,72.3,Urea,Nitrogen,87.3
+pomegranate,Black Soil,36.2,51.5,60.8,29.0,89.5,44.3,28-28-0,Nitrogen,101.7
+pomegranate,Sandy,15.4,41.9,60.5,30.0,67.6,28.3,Urea,Nitrogen,134.1
+banana,Sandy,67.7,19.7,58.1,28.7,47.8,20.7,14-35-14,Phosphorus,95.5
+banana,Clay,23.6,69.1,51.2,22.3,65.7,69.0,Urea,Nitrogen,96.5
+banana,Alluvial,77.0,21.6,65.4,35.2,72.5,33.6,SSP,Phosphorus,65.9
+banana,Loam,80.7,13.3,60.8,25.4,41.5,43.6,DAP,Phosphorus,94.5
+banana,Clay,50.4,17.7,66.7,36.9,58.7,51.0,SSP,Phosphorus,65.6
+banana,Alluvial,56.3,13.3,73.9,28.6,86.3,54.8,14-35-14,Phosphorus,51.4
+banana,Sandy,42.4,51.6,50.8,28.6,47.5,26.0,28-28-0,Nitrogen,125.4
+banana,Alluvial,72.6,66.7,58.1,23.8,89.5,27.0,NPK Fertilizer,Balanced,46.4
+banana,Alluvial,70.4,20.8,41.2,23.8,92.9,43.4,DAP,Phosphorus,76.6
+banana,Alluvial,19.1,42.8,37.3,33.2,85.9,46.4,28-28-0,Nitrogen,120.6
+banana,Alluvial,58.4,18.9,60.0,37.3,70.7,40.8,SSP,Phosphorus,60.4
+banana,Alluvial,87.2,14.0,50.8,37.9,88.4,57.4,DAP,Phosphorus,73.8
+banana,Black Soil,71.2,19.2,36.5,36.1,47.3,55.6,14-35-14,Phosphorus,89.5
+banana,Black Soil,43.9,73.0,55.5,19.2,77.4,48.0,28-28-0,Nitrogen,109.0
+banana,Loam,86.3,28.4,49.5,27.8,68.7,53.8,DAP,Phosphorus,93.3
+banana,Sandy,107.4,14.0,39.4,26.2,85.5,65.9,DAP,Phosphorus,72.0
+banana,Clay,11.1,73.9,43.8,24.0,53.2,38.7,Urea,Nitrogen,81.1
+banana,Alluvial,88.7,26.4,48.3,18.6,88.0,51.6,SSP,Phosphorus,60.5
+banana,Clay,63.6,40.1,41.3,33.9,94.5,32.0,NPK Fertilizer,Balanced,55.0
+banana,Clay,98.6,70.4,24.0,19.4,40.3,76.2,17-17-17,Potassium,44.4
+banana,Clay,20.7,57.0,60.3,32.5,55.4,61.2,Urea,Nitrogen,136.9
+banana,Loam,56.8,68.7,14.8,18.1,45.6,72.1,10-26-26,Potassium,42.5
+banana,Loam,74.1,46.7,13.0,32.2,76.7,32.7,17-17-17,Potassium,85.3
+banana,Alluvial,11.2,43.6,51.6,29.7,86.3,52.9,Urea,Nitrogen,87.4
+banana,Clay,83.3,60.5,20.5,32.4,87.7,47.2,10-26-26,Potassium,75.7
+mango,Black Soil,42.1,63.8,51.1,24.1,55.9,53.8,Urea,Nitrogen,97.1
+mango,Loam,56.2,13.8,66.3,34.5,79.7,36.3,14-35-14,Phosphorus,63.8
+mango,Clay,35.9,47.7,39.1,19.3,86.2,20.2,Urea,Nitrogen,87.8
+mango,Clay,76.0,71.4,17.5,34.9,57.2,67.3,17-17-17,Potassium,44.5
+mango,Loam,90.6,40.6,15.1,18.8,71.1,75.8,17-17-17,Potassium,73.3
+mango,Clay,70.8,54.3,59.0,23.6,47.1,60.6,17-17-17,Balanced,31.4
+mango,Alluvial,56.7,22.7,65.8,28.0,61.2,71.9,DAP,Phosphorus,52.6
+mango,Clay,72.3,69.8,24.6,21.7,70.4,44.9,10-26-26,Potassium,50.8
+mango,Alluvial,65.0,62.1,69.2,33.1,42.0,43.7,NPK Fertilizer,Balanced,41.9
+mango,Clay,13.9,55.6,45.7,35.8,55.8,42.1,Urea,Nitrogen,121.3
+mango,Alluvial,24.5,54.7,51.2,25.6,58.6,21.2,Urea,Nitrogen,134.4
+mango,Black Soil,90.7,16.2,66.0,18.2,65.5,77.8,SSP,Phosphorus,61.0
+mango,Black Soil,98.4,39.8,15.3,37.5,46.9,21.0,MOP,Potassium,57.1
+mango,Loam,89.8,21.0,70.2,22.5,75.3,54.2,SSP,Phosphorus,51.2
+mango,Sandy,15.3,71.0,63.4,34.6,73.3,37.5,Urea,Nitrogen,94.8
+mango,Black Soil,109.4,14.8,56.2,27.5,43.3,60.3,14-35-14,Phosphorus,82.2
+mango,Black Soil,103.8,26.9,47.6,33.5,51.3,63.5,SSP,Phosphorus,57.3
+mango,Alluvial,98.6,28.9,48.5,28.5,89.9,29.8,14-35-14,Phosphorus,73.5
+mango,Clay,63.8,10.9,51.6,31.8,78.0,75.8,14-35-14,Phosphorus,76.5
+mango,Alluvial,90.4,56.4,45.4,37.0,92.9,57.3,17-17-17,Balanced,31.3
+mango,Alluvial,44.8,56.1,50.7,27.6,89.4,60.5,28-28-0,Nitrogen,137.6
+mango,Black Soil,82.8,47.8,53.1,37.0,94.7,62.7,17-17-17,Balanced,35.3
+mango,Loam,97.7,68.8,55.6,37.6,50.5,67.6,NPK Fertilizer,Balanced,59.0
+mango,Alluvial,26.0,66.3,73.4,35.1,82.5,38.6,28-28-0,Nitrogen,126.3
+mango,Black Soil,69.1,59.0,46.7,18.2,40.5,41.4,NPK Fertilizer,Balanced,35.3
+grapes,Sandy,50.0,71.1,13.1,23.1,53.5,44.2,17-17-17,Potassium,86.0
+grapes,Sandy,55.4,10.7,37.3,27.9,68.2,48.9,SSP,Phosphorus,78.9
+grapes,Clay,89.4,14.8,42.7,33.8,53.8,53.8,DAP,Phosphorus,98.7
+grapes,Loam,65.9,60.4,46.7,34.8,81.3,33.7,NPK Fertilizer,Balanced,47.4
+grapes,Sandy,58.6,52.2,28.1,29.3,63.5,39.6,10-26-26,Potassium,84.6
+grapes,Alluvial,62.3,15.1,46.8,33.3,85.3,73.3,SSP,Phosphorus,51.6
+grapes,Clay,55.7,26.5,36.9,25.3,56.2,72.8,14-35-14,Phosphorus,88.7
+grapes,Loam,20.2,72.2,50.7,34.5,68.4,47.8,Urea,Nitrogen,125.9
+grapes,Clay,62.0,43.1,10.2,29.8,43.4,41.7,17-17-17,Potassium,84.1
+grapes,Black Soil,100.9,51.9,16.1,37.3,52.3,59.8,10-26-26,Potassium,80.9
+grapes,Sandy,76.2,46.6,62.9,23.4,46.9,40.2,NPK Fertilizer,Balanced,47.7
+grapes,Clay,19.4,55.7,45.8,25.6,62.8,65.2,28-28-0,Nitrogen,82.5
+grapes,Clay,29.6,66.2,63.3,25.2,92.2,57.9,Urea,Nitrogen,102.2
+grapes,Clay,38.1,39.9,40.0,27.0,48.7,30.8,Urea,Nitrogen,131.7
+grapes,Clay,33.3,41.3,39.8,18.6,42.9,28.5,Urea,Nitrogen,123.6
+grapes,Alluvial,37.5,64.4,50.4,36.9,67.3,42.8,Urea,Nitrogen,126.9
+grapes,Sandy,64.1,24.1,67.7,18.2,78.7,78.2,DAP,Phosphorus,76.7
+grapes,Sandy,43.7,63.6,73.1,26.6,57.0,48.9,28-28-0,Nitrogen,87.9
+grapes,Loam,38.6,55.1,37.8,34.2,77.2,57.5,28-28-0,Nitrogen,117.5
+grapes,Sandy,15.7,42.5,35.8,35.0,94.0,57.7,Urea,Nitrogen,98.4
+grapes,Sandy,86.3,44.9,17.1,26.2,91.4,45.8,10-26-26,Potassium,61.6
+grapes,Sandy,108.9,25.7,64.3,31.6,44.0,32.3,SSP,Phosphorus,59.9
+grapes,Sandy,42.9,71.6,35.5,33.7,73.1,79.4,28-28-0,Nitrogen,111.1
+grapes,Clay,61.4,21.6,43.2,20.1,70.1,78.7,DAP,Phosphorus,69.9
+grapes,Sandy,83.0,23.8,40.8,30.1,68.4,64.4,SSP,Phosphorus,53.8
+watermelon,Alluvial,77.5,38.7,21.1,36.5,43.8,45.8,MOP,Potassium,40.8
+watermelon,Sandy,85.0,56.0,15.0,25.5,71.0,47.0,10-26-26,Potassium,83.3
+watermelon,Clay,42.9,35.3,65.9,20.3,64.7,56.7,28-28-0,Nitrogen,122.1
+watermelon,Clay,81.7,68.2,46.6,19.0,74.5,43.1,17-17-17,Balanced,55.2
+watermelon,Loam,94.6,16.5,70.6,32.8,51.8,59.9,DAP,Phosphorus,95.7
+watermelon,Black Soil,109.8,14.6,56.9,35.2,84.9,50.8,DAP,Phosphorus,62.1
+watermelon,Black Soil,41.9,36.2,49.2,22.1,76.0,69.1,28-28-0,Nitrogen,96.2
+watermelon,Loam,90.4,11.6,73.1,19.3,65.2,64.0,14-35-14,Phosphorus,94.2
+watermelon,Sandy,80.8,15.1,74.5,27.9,55.6,67.2,SSP,Phosphorus,88.5
+watermelon,Clay,22.9,70.8,61.7,36.4,72.1,52.3,28-28-0,Nitrogen,127.2
+watermelon,Loam,76.6,23.0,72.5,30.6,53.7,62.3,14-35-14,Phosphorus,91.2
+watermelon,Sandy,78.2,10.6,43.4,30.0,51.1,55.4,DAP,Phosphorus,88.2
+watermelon,Loam,97.2,28.9,64.9,26.2,90.8,26.7,SSP,Phosphorus,90.7
+watermelon,Black Soil,77.7,56.6,47.6,26.9,84.3,20.5,17-17-17,Balanced,40.6
+watermelon,Black Soil,97.2,60.3,17.5,35.5,85.5,33.0,10-26-26,Potassium,87.1
+watermelon,Clay,70.9,55.9,25.9,24.4,89.7,24.7,17-17-17,Potassium,81.9
+watermelon,Sandy,74.7,24.4,50.4,26.3,40.7,37.8,SSP,Phosphorus,71.5
+watermelon,Alluvial,12.9,35.8,41.6,32.4,80.3,50.9,28-28-0,Nitrogen,132.9
+watermelon,Loam,86.5,14.9,37.3,25.1,45.8,33.3,14-35-14,Phosphorus,63.4
+watermelon,Black Soil,102.3,62.2,18.2,29.4,94.2,44.9,10-26-26,Potassium,48.6
+watermelon,Loam,43.1,62.9,54.8,24.6,70.1,54.5,Urea,Nitrogen,100.2
+watermelon,Loam,96.4,73.1,25.5,28.2,46.3,65.9,10-26-26,Potassium,79.6
+watermelon,Clay,35.0,70.3,64.3,31.5,62.4,73.1,Urea,Nitrogen,112.1
+watermelon,Clay,20.0,56.3,55.4,27.3,88.1,32.2,Urea,Nitrogen,131.3
+watermelon,Alluvial,50.9,15.6,43.3,27.7,40.7,44.6,14-35-14,Phosphorus,74.0
+muskmelon,Clay,78.0,55.4,69.7,32.9,86.6,52.7,NPK Fertilizer,Balanced,59.9
+muskmelon,Sandy,86.5,63.3,17.5,18.9,64.6,24.2,17-17-17,Potassium,72.8
+muskmelon,Sandy,72.4,60.3,11.9,36.6,60.9,69.9,17-17-17,Potassium,42.4
+muskmelon,Black Soil,98.2,55.7,12.8,33.3,72.1,66.9,MOP,Potassium,50.4
+muskmelon,Black Soil,95.0,71.3,25.2,32.8,49.3,31.7,17-17-17,Potassium,61.7
+muskmelon,Loam,26.6,63.7,45.8,35.8,71.8,57.9,28-28-0,Nitrogen,115.3
+muskmelon,Clay,80.3,45.6,42.3,22.8,51.8,45.5,NPK Fertilizer,Balanced,34.0
+muskmelon,Sandy,34.2,45.6,72.6,34.4,76.3,67.8,28-28-0,Nitrogen,93.5
+muskmelon,Alluvial,99.4,37.5,25.5,34.5,65.5,36.7,17-17-17,Potassium,78.9
+muskmelon,Black Soil,26.2,45.6,51.6,33.5,81.1,29.0,28-28-0,Nitrogen,94.6
+muskmelon,Alluvial,62.1,20.3,64.4,30.6,87.2,67.0,SSP,Phosphorus,99.8
+muskmelon,Loam,13.3,75.0,48.1,34.9,53.7,54.6,Urea,Nitrogen,128.1
+muskmelon,Alluvial,24.4,40.2,35.9,35.2,94.9,34.5,Urea,Nitrogen,131.0
+muskmelon,Sandy,10.6,71.7,63.2,18.3,44.4,38.7,28-28-0,Nitrogen,82.3
+muskmelon,Sandy,73.4,11.4,60.5,18.1,91.6,44.9,SSP,Phosphorus,72.1
+muskmelon,Loam,72.7,49.9,22.4,20.8,71.8,54.2,17-17-17,Potassium,50.6
+muskmelon,Sandy,106.4,20.1,73.0,26.9,67.2,71.7,DAP,Phosphorus,83.7
+muskmelon,Loam,32.5,74.0,37.8,20.2,90.9,57.9,28-28-0,Nitrogen,89.4
+muskmelon,Black Soil,77.2,29.0,37.4,26.3,51.2,22.5,14-35-14,Phosphorus,89.0
+muskmelon,Sandy,81.4,54.7,52.1,32.0,86.1,68.2,17-17-17,Balanced,47.5
+muskmelon,Clay,71.3,11.0,36.3,23.5,90.7,55.0,14-35-14,Phosphorus,54.2
+muskmelon,Black Soil,40.2,70.4,42.9,35.6,88.6,59.5,Urea,Nitrogen,128.0
+muskmelon,Clay,108.4,19.3,68.9,37.9,41.7,73.8,14-35-14,Phosphorus,56.4
+muskmelon,Black Soil,106.3,38.4,17.7,19.3,93.6,69.0,10-26-26,Potassium,60.8
+muskmelon,Loam,15.9,40.9,73.9,22.6,65.8,36.1,28-28-0,Nitrogen,90.0
+apple,Black Soil,18.1,40.2,45.3,23.6,83.9,39.6,Urea,Nitrogen,101.2
+apple,Alluvial,22.0,69.6,41.2,19.3,51.6,68.5,Urea,Nitrogen,85.9
+apple,Sandy,80.3,12.9,60.0,29.3,84.2,28.2,14-35-14,Phosphorus,93.8
+apple,Clay,24.7,53.3,64.0,27.2,56.9,69.3,28-28-0,Nitrogen,112.8
+apple,Black Soil,100.4,29.8,70.6,33.5,87.4,38.8,14-35-14,Phosphorus,59.8
+apple,Loam,89.5,39.7,26.0,27.4,76.1,53.6,17-17-17,Potassium,74.9
+apple,Sandy,67.0,57.0,57.4,33.2,46.9,31.8,NPK Fertilizer,Balanced,56.1
+apple,Black Soil,14.6,69.2,41.6,37.4,91.3,64.5,Urea,Nitrogen,93.1
+apple,Alluvial,83.5,17.4,66.4,26.1,89.7,56.2,SSP,Phosphorus,96.9
+apple,Sandy,44.6,36.0,45.1,24.7,80.1,54.4,Urea,Nitrogen,132.4
+apple,Black Soil,95.0,13.0,53.3,18.0,87.9,67.6,SSP,Phosphorus,60.0
+apple,Loam,105.5,25.7,58.6,22.7,92.2,76.7,DAP,Phosphorus,73.3
+apple,Clay,92.2,28.7,50.0,32.0,73.8,65.6,14-35-14,Phosphorus,91.4
+apple,Alluvial,63.6,23.4,53.7,31.5,82.0,22.7,SSP,Phosphorus,56.2
+apple,Black Soil,91.8,62.6,46.5,23.6,86.9,75.7,NPK Fertilizer,Balanced,31.5
+apple,Clay,87.8,58.3,46.0,33.5,90.3,31.3,17-17-17,Balanced,52.5
+apple,Sandy,100.1,72.1,17.3,31.0,51.6,53.4,10-26-26,Potassium,41.0
+apple,Sandy,11.1,73.5,61.7,28.5,82.6,34.1,Urea,Nitrogen,118.2
+apple,Sandy,106.8,70.4,24.8,30.2,77.3,39.1,10-26-26,Potassium,85.6
+apple,Black Soil,87.4,74.6,16.2,37.3,40.6,63.0,17-17-17,Potassium,47.1
+apple,Sandy,109.1,28.8,53.1,35.0,44.9,79.5,14-35-14,Phosphorus,53.1
+apple,Clay,25.7,71.5,42.6,22.8,79.1,36.4,28-28-0,Nitrogen,108.3
+apple,Loam,20.3,39.6,72.7,36.1,75.6,36.4,Urea,Nitrogen,80.4
+apple,Black Soil,71.4,65.3,15.9,35.3,53.7,63.0,17-17-17,Potassium,45.4
+apple,Clay,99.3,41.9,19.7,32.6,91.7,56.2,10-26-26,Potassium,74.1
+orange,Loam,14.1,56.9,71.1,24.0,72.8,46.0,28-28-0,Nitrogen,93.1
+orange,Black Soil,92.0,18.2,57.4,29.6,45.8,72.4,DAP,Phosphorus,54.1
+orange,Sandy,57.1,29.6,43.6,34.0,45.7,54.6,DAP,Phosphorus,94.8
+orange,Loam,56.2,13.5,57.7,32.8,41.8,59.5,SSP,Phosphorus,78.1
+orange,Alluvial,77.2,50.4,41.5,34.4,94.1,35.6,NPK Fertilizer,Balanced,30.8
+orange,Clay,30.2,49.4,67.9,27.2,52.5,56.8,Urea,Nitrogen,84.6
+orange,Sandy,17.3,38.4,53.7,25.0,59.9,68.3,28-28-0,Nitrogen,134.8
+orange,Sandy,73.1,53.4,16.1,22.4,61.0,68.5,17-17-17,Potassium,40.8
+orange,Alluvial,26.6,51.3,41.4,36.7,77.6,51.9,28-28-0,Nitrogen,117.2
+orange,Black Soil,57.0,22.3,72.5,29.2,79.3,24.1,SSP,Phosphorus,53.8
+orange,Sandy,21.2,52.5,71.0,22.6,77.5,76.4,28-28-0,Nitrogen,86.4
+orange,Black Soil,23.8,42.3,41.3,26.3,77.2,59.5,28-28-0,Nitrogen,134.4
+orange,Black Soil,63.9,20.0,64.3,26.4,49.3,72.8,DAP,Phosphorus,65.7
+orange,Loam,87.8,18.1,65.1,35.7,91.4,75.0,14-35-14,Phosphorus,52.2
+orange,Alluvial,39.2,56.6,68.8,26.6,80.2,69.5,28-28-0,Nitrogen,86.5
+orange,Alluvial,80.8,16.2,57.9,36.3,53.8,70.7,SSP,Phosphorus,78.0
+orange,Loam,93.7,16.9,61.8,18.1,93.8,77.9,14-35-14,Phosphorus,72.0
+orange,Clay,61.0,58.1,59.8,26.0,83.1,36.0,17-17-17,Balanced,42.9
+orange,Sandy,20.8,56.9,51.7,36.8,50.0,57.4,28-28-0,Nitrogen,87.8
+orange,Clay,38.2,37.1,41.4,33.9,79.8,61.4,28-28-0,Nitrogen,89.8
+orange,Sandy,19.3,46.2,46.1,22.7,85.7,76.9,Urea,Nitrogen,105.2
+orange,Sandy,30.4,35.5,66.5,18.8,71.6,43.6,Urea,Nitrogen,94.9
+orange,Loam,66.5,24.2,45.9,29.8,61.9,78.4,SSP,Phosphorus,56.6
+orange,Black Soil,17.9,67.7,72.2,26.5,85.8,68.3,28-28-0,Nitrogen,91.6
+orange,Alluvial,33.2,69.8,65.4,30.5,55.8,36.8,Urea,Nitrogen,100.1
+papaya,Black Soil,20.4,71.4,56.9,31.9,70.4,33.0,Urea,Nitrogen,96.1
+papaya,Black Soil,85.1,48.5,26.1,26.2,46.9,30.3,17-17-17,Potassium,72.1
+papaya,Alluvial,13.9,60.9,70.0,24.9,58.6,38.7,Urea,Nitrogen,129.6
+papaya,Clay,82.1,38.3,10.7,28.9,45.8,22.7,10-26-26,Potassium,41.5
+papaya,Clay,89.6,58.1,27.3,21.1,94.4,78.6,17-17-17,Potassium,89.3
+papaya,Loam,80.0,60.8,10.5,26.7,64.6,57.1,17-17-17,Potassium,74.5
+papaya,Clay,65.2,19.4,54.7,20.6,45.5,56.2,DAP,Phosphorus,82.6
+papaya,Alluvial,14.4,74.2,62.0,33.3,53.9,71.9,Urea,Nitrogen,88.1
+papaya,Sandy,84.5,52.2,15.5,31.5,72.7,56.2,MOP,Potassium,40.9
+papaya,Loam,63.1,37.4,12.6,31.8,52.8,57.5,10-26-26,Potassium,46.1
+papaya,Loam,105.7,16.6,53.6,18.9,80.4,40.5,DAP,Phosphorus,81.1
+papaya,Clay,82.9,13.5,46.8,23.2,41.5,57.9,SSP,Phosphorus,90.3
+papaya,Loam,80.0,11.4,38.6,19.0,89.0,54.6,14-35-14,Phosphorus,56.4
+papaya,Loam,67.6,56.0,24.0,36.3,62.4,28.6,MOP,Potassium,55.4
+papaya,Alluvial,19.5,43.7,61.5,31.6,92.0,37.7,28-28-0,Nitrogen,87.7
+papaya,Black Soil,14.7,38.8,68.3,24.5,76.6,53.4,Urea,Nitrogen,109.9
+papaya,Alluvial,57.1,35.0,24.2,20.1,62.1,63.7,MOP,Potassium,67.7
+papaya,Alluvial,29.2,50.2,59.3,37.2,71.1,50.9,28-28-0,Nitrogen,93.5
+papaya,Clay,77.8,56.0,66.2,24.3,45.3,30.6,17-17-17,Balanced,56.7
+papaya,Sandy,90.4,23.6,47.6,34.2,58.0,38.3,SSP,Phosphorus,68.2
+papaya,Black Soil,95.2,69.9,20.0,20.6,71.8,61.6,10-26-26,Potassium,44.6
+papaya,Sandy,87.0,27.0,42.8,21.7,41.4,37.1,14-35-14,Phosphorus,76.2
+papaya,Sandy,12.0,39.2,58.4,27.6,72.2,52.5,Urea,Nitrogen,84.0
+papaya,Sandy,91.4,15.0,47.3,30.8,85.1,22.5,14-35-14,Phosphorus,57.7
+papaya,Sandy,88.5,19.3,42.6,34.2,72.1,63.8,14-35-14,Phosphorus,88.5
+coconut,Black Soil,12.0,65.7,63.1,25.2,90.1,21.3,Urea,Nitrogen,138.0
+coconut,Black Soil,106.1,15.0,39.8,25.9,81.6,47.3,SSP,Phosphorus,98.5
+coconut,Loam,12.1,55.0,39.3,34.3,65.7,24.6,28-28-0,Nitrogen,101.3
+coconut,Alluvial,31.5,59.7,53.3,35.5,64.9,79.1,28-28-0,Nitrogen,83.7
+coconut,Clay,26.7,59.1,58.3,36.8,75.7,77.3,28-28-0,Nitrogen,132.1
+coconut,Clay,62.5,37.3,21.0,20.5,61.5,29.8,10-26-26,Potassium,58.2
+coconut,Alluvial,54.8,21.3,71.3,29.5,59.0,68.2,14-35-14,Phosphorus,58.6
+coconut,Alluvial,54.8,28.8,65.2,20.9,48.3,46.0,SSP,Phosphorus,75.1
+coconut,Sandy,16.8,62.1,47.9,33.8,90.4,41.6,28-28-0,Nitrogen,138.3
+coconut,Alluvial,75.4,29.9,35.4,25.9,73.2,68.1,14-35-14,Phosphorus,74.1
+coconut,Alluvial,50.8,44.1,21.3,33.7,74.0,40.5,MOP,Potassium,62.0
+coconut,Black Soil,26.1,65.1,71.2,18.5,46.4,27.6,28-28-0,Nitrogen,82.9
+coconut,Loam,54.1,14.4,72.4,26.8,51.0,35.9,14-35-14,Phosphorus,89.2
+coconut,Clay,24.5,35.6,54.1,18.3,53.6,72.0,28-28-0,Nitrogen,91.1
+coconut,Alluvial,33.3,38.2,52.7,30.1,82.0,51.4,Urea,Nitrogen,88.6
+coconut,Loam,80.7,19.7,50.3,22.0,61.3,23.1,SSP,Phosphorus,59.7
+coconut,Black Soil,109.7,14.0,45.3,18.1,41.4,53.2,DAP,Phosphorus,52.4
+coconut,Loam,43.1,68.7,46.9,21.7,69.8,58.7,Urea,Nitrogen,136.2
+coconut,Clay,22.5,74.6,62.4,20.5,46.8,51.1,Urea,Nitrogen,82.8
+coconut,Alluvial,11.9,48.2,65.6,19.8,55.7,60.3,Urea,Nitrogen,104.9
+coconut,Black Soil,43.9,57.0,73.5,29.6,41.2,79.3,Urea,Nitrogen,103.6
+coconut,Alluvial,30.6,39.5,48.3,21.4,42.8,57.1,28-28-0,Nitrogen,84.4
+coconut,Loam,34.1,73.5,64.2,30.6,75.6,70.6,28-28-0,Nitrogen,104.0
+coconut,Sandy,38.4,45.9,64.3,32.8,73.7,21.0,Urea,Nitrogen,130.0
+coconut,Sandy,89.1,53.4,23.5,19.4,50.0,77.4,10-26-26,Potassium,66.0
+cotton,Black Soil,43.2,70.2,71.3,31.5,61.8,28.0,Urea,Nitrogen,104.5
+cotton,Sandy,85.6,21.5,41.5,31.4,66.6,45.1,DAP,Phosphorus,59.9
+cotton,Sandy,22.4,66.2,57.6,29.4,51.6,64.5,28-28-0,Nitrogen,99.8
+cotton,Alluvial,79.3,12.7,45.5,29.3,83.8,64.1,DAP,Phosphorus,53.0
+cotton,Black Soil,67.1,24.7,36.0,28.3,55.9,20.4,14-35-14,Phosphorus,55.2
+cotton,Sandy,83.0,18.1,55.9,21.5,65.9,25.5,14-35-14,Phosphorus,82.1
+cotton,Clay,85.8,67.4,18.6,18.5,87.4,54.6,10-26-26,Potassium,85.7
+cotton,Clay,73.1,52.4,21.9,24.5,49.1,30.9,MOP,Potassium,61.3
+cotton,Clay,62.8,15.7,51.0,19.6,44.8,30.3,DAP,Phosphorus,80.2
+cotton,Black Soil,60.8,44.6,66.6,31.0,76.8,67.9,17-17-17,Balanced,49.9
+cotton,Loam,62.5,40.3,22.8,35.7,84.9,21.1,17-17-17,Potassium,51.6
+cotton,Clay,17.3,51.7,49.3,20.8,40.1,74.2,28-28-0,Nitrogen,125.5
+cotton,Black Soil,98.2,11.7,50.4,28.2,77.4,75.9,14-35-14,Phosphorus,89.1
+cotton,Clay,43.8,52.1,60.3,21.0,58.1,23.3,Urea,Nitrogen,110.3
+cotton,Loam,73.9,10.1,55.9,20.9,51.4,38.8,14-35-14,Phosphorus,89.2
+cotton,Clay,61.0,73.3,17.5,25.4,81.3,73.8,17-17-17,Potassium,79.4
+cotton,Sandy,68.1,69.3,27.1,23.0,57.4,68.5,10-26-26,Potassium,53.7
+cotton,Loam,88.7,20.2,39.8,36.9,77.5,39.9,14-35-14,Phosphorus,53.2
+cotton,Sandy,33.2,65.1,67.5,35.2,47.6,77.1,28-28-0,Nitrogen,97.4
+cotton,Sandy,32.6,60.0,60.5,34.1,94.3,55.9,Urea,Nitrogen,83.2
+cotton,Sandy,38.7,62.1,60.4,37.2,52.0,25.3,Urea,Nitrogen,123.2
+cotton,Clay,97.3,68.0,52.1,24.2,66.2,67.6,NPK Fertilizer,Balanced,50.1
+cotton,Alluvial,31.4,47.3,48.0,36.4,47.8,38.3,Urea,Nitrogen,137.7
+cotton,Loam,71.9,63.3,51.8,30.6,54.9,34.9,NPK Fertilizer,Balanced,59.9
+cotton,Black Soil,70.6,20.4,52.6,28.9,93.7,42.1,DAP,Phosphorus,51.7
+jute,Alluvial,77.1,27.4,56.2,26.3,43.5,43.8,DAP,Phosphorus,70.5
+jute,Sandy,19.7,36.8,72.2,35.9,86.9,60.4,Urea,Nitrogen,99.3
+jute,Clay,11.9,43.2,51.7,37.9,63.9,75.2,Urea,Nitrogen,86.3
+jute,Sandy,14.2,37.7,64.0,36.3,86.4,64.5,Urea,Nitrogen,93.9
+jute,Clay,87.3,24.4,39.4,20.4,68.2,40.9,14-35-14,Phosphorus,55.4
+jute,Loam,98.1,16.8,52.8,19.1,50.4,22.3,SSP,Phosphorus,90.8
+jute,Clay,77.6,74.6,19.7,35.2,87.6,20.6,10-26-26,Potassium,68.1
+jute,Loam,34.7,48.8,35.3,28.8,94.6,71.5,28-28-0,Nitrogen,137.2
+jute,Sandy,98.1,44.1,56.1,18.4,89.7,24.1,17-17-17,Balanced,35.6
+jute,Clay,104.3,54.7,16.6,23.8,63.0,42.6,10-26-26,Potassium,82.0
+jute,Loam,37.4,39.9,60.4,24.0,56.4,39.2,Urea,Nitrogen,99.6
+jute,Loam,54.7,29.1,44.9,36.2,50.5,69.3,DAP,Phosphorus,57.0
+jute,Sandy,106.1,71.4,26.4,35.1,40.7,50.7,17-17-17,Potassium,89.0
+jute,Alluvial,82.7,13.2,62.6,23.7,55.9,42.6,14-35-14,Phosphorus,59.7
+jute,Clay,59.3,20.9,38.5,28.1,83.8,64.4,14-35-14,Phosphorus,61.0
+jute,Clay,74.1,41.3,45.4,18.8,55.1,77.3,NPK Fertilizer,Balanced,33.5
+jute,Alluvial,75.3,63.3,50.3,20.8,82.0,26.5,17-17-17,Balanced,48.9
+jute,Alluvial,87.5,67.3,11.4,20.9,91.6,75.1,MOP,Potassium,68.1
+jute,Black Soil,98.9,17.6,40.3,30.7,59.6,28.9,14-35-14,Phosphorus,98.4
+jute,Loam,95.6,24.3,42.7,29.3,91.3,55.2,SSP,Phosphorus,90.0
+jute,Loam,24.4,37.9,58.0,25.6,68.5,44.8,Urea,Nitrogen,83.3
+jute,Alluvial,62.4,20.9,44.3,25.2,44.8,32.1,DAP,Phosphorus,50.3
+jute,Clay,30.0,58.3,63.6,22.9,84.7,40.6,Urea,Nitrogen,112.8
+jute,Alluvial,42.1,48.1,49.9,29.1,69.4,31.7,Urea,Nitrogen,86.9
+jute,Black Soil,53.0,45.3,19.3,37.0,80.6,55.8,MOP,Potassium,83.6
+coffee,Loam,77.8,54.7,50.5,36.4,63.3,40.5,NPK Fertilizer,Balanced,46.6
+coffee,Black Soil,100.9,17.3,66.8,33.2,84.6,40.5,DAP,Phosphorus,80.1
+coffee,Black Soil,24.1,62.0,53.0,34.1,86.5,43.7,Urea,Nitrogen,107.9
+coffee,Black Soil,20.2,64.9,54.3,21.7,81.2,52.7,Urea,Nitrogen,86.4
+coffee,Black Soil,103.9,20.5,63.3,32.3,92.6,45.6,14-35-14,Phosphorus,72.3
+coffee,Loam,22.5,48.3,50.5,28.2,63.6,23.2,28-28-0,Nitrogen,113.0
+coffee,Black Soil,101.3,51.7,16.2,35.1,91.6,49.5,MOP,Potassium,65.8
+coffee,Alluvial,85.8,50.7,19.5,35.9,46.6,39.7,17-17-17,Potassium,57.0
+coffee,Sandy,66.4,68.1,24.8,35.0,44.6,41.4,MOP,Potassium,66.8
+coffee,Sandy,29.6,69.3,61.7,21.9,51.6,22.5,Urea,Nitrogen,98.4
+coffee,Loam,35.4,39.9,47.1,36.6,69.0,35.5,Urea,Nitrogen,108.9
+coffee,Black Soil,85.0,40.0,12.4,21.5,78.9,62.7,10-26-26,Potassium,69.6
+coffee,Alluvial,81.7,16.7,55.8,31.3,74.3,56.1,14-35-14,Phosphorus,90.7
+coffee,Black Soil,66.6,21.2,48.9,19.7,64.0,59.5,SSP,Phosphorus,94.7
+coffee,Clay,70.2,28.4,35.5,24.6,80.5,22.2,DAP,Phosphorus,81.2
+coffee,Sandy,64.2,19.7,52.2,19.7,93.5,51.1,DAP,Phosphorus,72.8
+coffee,Black Soil,53.7,58.1,12.4,22.8,50.7,50.3,10-26-26,Potassium,60.1
+coffee,Alluvial,13.5,50.7,59.7,32.4,70.1,76.6,Urea,Nitrogen,114.7
+coffee,Loam,56.0,25.3,73.7,24.6,57.4,26.4,14-35-14,Phosphorus,78.2
+coffee,Clay,77.3,19.6,65.3,30.0,78.5,37.1,14-35-14,Phosphorus,58.5
+coffee,Black Soil,84.4,56.4,47.5,36.5,43.1,49.1,17-17-17,Balanced,36.6
+coffee,Sandy,82.0,69.4,23.9,20.0,81.3,74.4,17-17-17,Potassium,74.2
+coffee,Loam,98.1,41.4,20.7,35.0,59.0,22.1,17-17-17,Potassium,85.0
+coffee,Alluvial,90.2,18.0,46.9,23.4,57.4,70.7,SSP,Phosphorus,59.2
+coffee,Alluvial,99.8,53.5,47.6,25.5,51.5,61.7,17-17-17,Balanced,59.5

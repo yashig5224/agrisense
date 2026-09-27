@@ -1,0 +1,115 @@
+Item_Type,Name,Crop_Target,Price_Per_Unit,Unit_Size,Provider_Name,Provider_Address,District_Zone,Distance_km,Availability_Status,Data_Source,Last_Updated
+Seed,Certified Rice Hybrid Seed,rice,115.3,10 kg bag,National Agri Retail Hub,South Zone Agri-Hub Sector 1,South Zone,15.7,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Rice Hybrid Seed,rice,298.78,10 kg bag,Kisan Seva Kendra,Central Zone Agri-Hub Sector 2,Central Zone,12.3,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Maize Hybrid Seed,maize,124.25,10 kg bag,AgriCorp National Supplies,Central Zone Agri-Hub Sector 1,Central Zone,27.8,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Maize Hybrid Seed,maize,167.31,10 kg bag,Kisan Seva Kendra,South Zone Agri-Hub Sector 2,South Zone,11.6,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Chickpea Hybrid Seed,chickpea,89.41,10 kg bag,AgriCorp National Supplies,South Zone Agri-Hub Sector 1,South Zone,6.3,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Chickpea Hybrid Seed,chickpea,288.41,10 kg bag,AgriCorp National Supplies,East Zone Agri-Hub Sector 2,East Zone,27.2,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Kidneybeans Hybrid Seed,kidneybeans,155.13,10 kg bag,Kisan Seva Kendra,Central Zone Agri-Hub Sector 1,Central Zone,36.0,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Kidneybeans Hybrid Seed,kidneybeans,139.65,10 kg bag,GreenField Bio Inputs,Central Zone Agri-Hub Sector 2,Central Zone,35.5,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Pigeonpeas Hybrid Seed,pigeonpeas,119.03,10 kg bag,Harvest Field Products,North Zone Agri-Hub Sector 1,North Zone,18.7,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Pigeonpeas Hybrid Seed,pigeonpeas,410.25,10 kg bag,National Agri Retail Hub,East Zone Agri-Hub Sector 2,East Zone,21.6,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mothbeans Hybrid Seed,mothbeans,197.66,10 kg bag,National Agri Retail Hub,North Zone Agri-Hub Sector 1,North Zone,6.4,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mothbeans Hybrid Seed,mothbeans,382.67,10 kg bag,GreenField Bio Inputs,North Zone Agri-Hub Sector 2,North Zone,33.1,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mungbean Hybrid Seed,mungbean,234.44,10 kg bag,Harvest Field Products,Central Zone Agri-Hub Sector 1,Central Zone,10.4,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mungbean Hybrid Seed,mungbean,170.33,10 kg bag,State Farm Cooperative Society,East Zone Agri-Hub Sector 2,East Zone,8.5,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Blackgram Hybrid Seed,blackgram,214.54,10 kg bag,AgriCorp National Supplies,East Zone Agri-Hub Sector 1,East Zone,37.0,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Blackgram Hybrid Seed,blackgram,343.54,10 kg bag,National Agri Retail Hub,South Zone Agri-Hub Sector 2,South Zone,7.8,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Lentil Hybrid Seed,lentil,305.54,10 kg bag,AgriCorp National Supplies,Central Zone Agri-Hub Sector 1,Central Zone,20.3,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Lentil Hybrid Seed,lentil,314.71,10 kg bag,Kisan Seva Kendra,North Zone Agri-Hub Sector 2,North Zone,26.7,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Pomegranate Hybrid Seed,pomegranate,444.69,10 kg bag,National Agri Retail Hub,South Zone Agri-Hub Sector 1,South Zone,11.1,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Pomegranate Hybrid Seed,pomegranate,169.6,10 kg bag,GreenField Bio Inputs,Central Zone Agri-Hub Sector 2,Central Zone,31.0,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Banana Hybrid Seed,banana,314.41,10 kg bag,National Agri Retail Hub,South Zone Agri-Hub Sector 1,South Zone,21.5,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Banana Hybrid Seed,banana,198.69,10 kg bag,AgriCorp National Supplies,North Zone Agri-Hub Sector 2,North Zone,9.1,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mango Hybrid Seed,mango,200.6,10 kg bag,GreenField Bio Inputs,East Zone Agri-Hub Sector 1,East Zone,10.3,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Mango Hybrid Seed,mango,209.01,10 kg bag,GreenField Bio Inputs,Central Zone Agri-Hub Sector 2,Central Zone,5.9,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Grapes Hybrid Seed,grapes,389.95,10 kg bag,AgriCorp National Supplies,South Zone Agri-Hub Sector 1,South Zone,26.5,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Grapes Hybrid Seed,grapes,422.14,10 kg bag,AgriCorp National Supplies,South Zone Agri-Hub Sector 2,South Zone,33.6,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Watermelon Hybrid Seed,watermelon,443.4,10 kg bag,National Agri Retail Hub,South Zone Agri-Hub Sector 1,South Zone,20.8,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Watermelon Hybrid Seed,watermelon,114.45,10 kg bag,State Farm Cooperative Society,North Zone Agri-Hub Sector 2,North Zone,34.4,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Muskmelon Hybrid Seed,muskmelon,183.18,10 kg bag,GreenField Bio Inputs,North Zone Agri-Hub Sector 1,North Zone,27.4,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Muskmelon Hybrid Seed,muskmelon,408.22,10 kg bag,GreenField Bio Inputs,East Zone Agri-Hub Sector 2,East Zone,30.2,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Apple Hybrid Seed,apple,426.18,10 kg bag,National Agri Retail Hub,Central Zone Agri-Hub Sector 1,Central Zone,30.4,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Apple Hybrid Seed,apple,217.74,10 kg bag,National Agri Retail Hub,Central Zone Agri-Hub Sector 2,Central Zone,35.9,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Orange Hybrid Seed,orange,139.5,10 kg bag,Kisan Seva Kendra,South Zone Agri-Hub Sector 1,South Zone,22.0,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Orange Hybrid Seed,orange,162.98,10 kg bag,GreenField Bio Inputs,West Zone Agri-Hub Sector 2,West Zone,27.8,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Papaya Hybrid Seed,papaya,146.16,10 kg bag,Harvest Field Products,West Zone Agri-Hub Sector 1,West Zone,15.5,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Papaya Hybrid Seed,papaya,193.98,10 kg bag,GreenField Bio Inputs,North Zone Agri-Hub Sector 2,North Zone,21.8,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Coconut Hybrid Seed,coconut,260.09,10 kg bag,GreenField Bio Inputs,West Zone Agri-Hub Sector 1,West Zone,34.7,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Coconut Hybrid Seed,coconut,265.98,10 kg bag,State Farm Cooperative Society,West Zone Agri-Hub Sector 2,West Zone,23.0,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Cotton Hybrid Seed,cotton,165.17,10 kg bag,AgriCorp National Supplies,West Zone Agri-Hub Sector 1,West Zone,20.2,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Cotton Hybrid Seed,cotton,96.13,10 kg bag,GreenField Bio Inputs,North Zone Agri-Hub Sector 2,North Zone,37.8,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Jute Hybrid Seed,jute,406.89,10 kg bag,Kisan Seva Kendra,West Zone Agri-Hub Sector 1,West Zone,29.0,In Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Jute Hybrid Seed,jute,284.52,10 kg bag,Kisan Seva Kendra,North Zone Agri-Hub Sector 2,North Zone,22.8,Out of Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Coffee Hybrid Seed,coffee,188.95,10 kg bag,AgriCorp National Supplies,East Zone Agri-Hub Sector 1,East Zone,16.2,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Seed,Certified Coffee Hybrid Seed,coffee,142.71,10 kg bag,AgriCorp National Supplies,Central Zone Agri-Hub Sector 2,Central Zone,22.3,Limited Stock,Agricultural Retail Directory,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,274.88,50 kg bag,Harvest Field Products,North Zone Fertilizer Outlet #101,North Zone,24.7,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,273.15,50 kg bag,State Farm Cooperative Society,North Zone Fertilizer Outlet #102,North Zone,41.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,266.29,50 kg bag,GreenField Bio Inputs,South Zone Fertilizer Outlet #101,South Zone,14.8,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,262.89,50 kg bag,AgriCorp National Supplies,South Zone Fertilizer Outlet #102,South Zone,30.3,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,266.32,50 kg bag,Kisan Seva Kendra,Central Zone Fertilizer Outlet #101,Central Zone,18.7,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,273.07,50 kg bag,AgriCorp National Supplies,Central Zone Fertilizer Outlet #102,Central Zone,5.1,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,273.42,50 kg bag,AgriCorp National Supplies,East Zone Fertilizer Outlet #101,East Zone,9.6,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,277.02,50 kg bag,Harvest Field Products,East Zone Fertilizer Outlet #102,East Zone,37.6,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,272.37,50 kg bag,National Agri Retail Hub,West Zone Fertilizer Outlet #101,West Zone,19.4,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,Urea 46% N,General,267.0,50 kg bag,Harvest Field Products,West Zone Fertilizer Outlet #102,West Zone,8.0,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1400.1,50 kg bag,Kisan Seva Kendra,North Zone Fertilizer Outlet #101,North Zone,36.4,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1313.69,50 kg bag,National Agri Retail Hub,North Zone Fertilizer Outlet #102,North Zone,14.0,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1344.78,50 kg bag,National Agri Retail Hub,South Zone Fertilizer Outlet #101,South Zone,35.1,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1413.75,50 kg bag,National Agri Retail Hub,South Zone Fertilizer Outlet #102,South Zone,20.2,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1330.49,50 kg bag,Kisan Seva Kendra,Central Zone Fertilizer Outlet #101,Central Zone,18.3,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1323.84,50 kg bag,National Agri Retail Hub,Central Zone Fertilizer Outlet #102,Central Zone,40.8,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1313.94,50 kg bag,Harvest Field Products,East Zone Fertilizer Outlet #101,East Zone,17.8,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1389.86,50 kg bag,National Agri Retail Hub,East Zone Fertilizer Outlet #102,East Zone,11.9,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1318.23,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #101,West Zone,19.0,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,DAP 18-46-0,General,1315.78,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #102,West Zone,38.6,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1681.61,50 kg bag,State Farm Cooperative Society,North Zone Fertilizer Outlet #101,North Zone,5.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1687.07,50 kg bag,Kisan Seva Kendra,North Zone Fertilizer Outlet #102,North Zone,40.2,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1732.19,50 kg bag,Kisan Seva Kendra,South Zone Fertilizer Outlet #101,South Zone,18.7,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1697.41,50 kg bag,State Farm Cooperative Society,South Zone Fertilizer Outlet #102,South Zone,32.3,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1664.79,50 kg bag,Kisan Seva Kendra,Central Zone Fertilizer Outlet #101,Central Zone,3.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1765.34,50 kg bag,Harvest Field Products,Central Zone Fertilizer Outlet #102,Central Zone,30.1,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1752.82,50 kg bag,State Farm Cooperative Society,East Zone Fertilizer Outlet #101,East Zone,34.2,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1712.2,50 kg bag,AgriCorp National Supplies,East Zone Fertilizer Outlet #102,East Zone,27.9,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1778.08,50 kg bag,State Farm Cooperative Society,West Zone Fertilizer Outlet #101,West Zone,37.4,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,MOP 60% K,General,1734.12,50 kg bag,State Farm Cooperative Society,West Zone Fertilizer Outlet #102,West Zone,22.0,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1506.33,50 kg bag,Kisan Seva Kendra,North Zone Fertilizer Outlet #101,North Zone,26.6,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1429.02,50 kg bag,State Farm Cooperative Society,North Zone Fertilizer Outlet #102,North Zone,25.3,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1493.58,50 kg bag,National Agri Retail Hub,South Zone Fertilizer Outlet #101,South Zone,17.4,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1479.79,50 kg bag,AgriCorp National Supplies,South Zone Fertilizer Outlet #102,South Zone,23.7,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1471.31,50 kg bag,National Agri Retail Hub,Central Zone Fertilizer Outlet #101,Central Zone,40.4,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1448.93,50 kg bag,GreenField Bio Inputs,Central Zone Fertilizer Outlet #102,Central Zone,4.6,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1428.04,50 kg bag,Harvest Field Products,East Zone Fertilizer Outlet #101,East Zone,5.6,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1503.01,50 kg bag,AgriCorp National Supplies,East Zone Fertilizer Outlet #102,East Zone,17.3,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1465.96,50 kg bag,State Farm Cooperative Society,West Zone Fertilizer Outlet #101,West Zone,12.3,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,17-17-17 NPK,General,1507.38,50 kg bag,National Agri Retail Hub,West Zone Fertilizer Outlet #102,West Zone,15.8,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1381.85,50 kg bag,Kisan Seva Kendra,North Zone Fertilizer Outlet #101,North Zone,18.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1439.65,50 kg bag,AgriCorp National Supplies,North Zone Fertilizer Outlet #102,North Zone,18.8,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1489.92,50 kg bag,GreenField Bio Inputs,South Zone Fertilizer Outlet #101,South Zone,18.4,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1465.6,50 kg bag,AgriCorp National Supplies,South Zone Fertilizer Outlet #102,South Zone,15.5,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1404.5,50 kg bag,Kisan Seva Kendra,Central Zone Fertilizer Outlet #101,Central Zone,29.1,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1404.46,50 kg bag,AgriCorp National Supplies,Central Zone Fertilizer Outlet #102,Central Zone,17.0,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1433.81,50 kg bag,Harvest Field Products,East Zone Fertilizer Outlet #101,East Zone,17.5,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1388.76,50 kg bag,GreenField Bio Inputs,East Zone Fertilizer Outlet #102,East Zone,4.0,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1473.64,50 kg bag,AgriCorp National Supplies,West Zone Fertilizer Outlet #101,West Zone,16.1,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,14-35-14 NPK,General,1454.28,50 kg bag,Harvest Field Products,West Zone Fertilizer Outlet #102,West Zone,21.2,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1348.72,50 kg bag,Kisan Seva Kendra,North Zone Fertilizer Outlet #101,North Zone,26.0,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1362.09,50 kg bag,GreenField Bio Inputs,North Zone Fertilizer Outlet #102,North Zone,39.8,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1351.13,50 kg bag,AgriCorp National Supplies,South Zone Fertilizer Outlet #101,South Zone,39.2,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1399.27,50 kg bag,Harvest Field Products,South Zone Fertilizer Outlet #102,South Zone,19.5,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1377.34,50 kg bag,Kisan Seva Kendra,Central Zone Fertilizer Outlet #101,Central Zone,6.5,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1422.67,50 kg bag,AgriCorp National Supplies,Central Zone Fertilizer Outlet #102,Central Zone,26.7,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1347.89,50 kg bag,Harvest Field Products,East Zone Fertilizer Outlet #101,East Zone,30.0,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1429.33,50 kg bag,AgriCorp National Supplies,East Zone Fertilizer Outlet #102,East Zone,30.2,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1347.97,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #101,West Zone,41.5,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,28-28-0 NPK,General,1379.52,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #102,West Zone,34.5,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,488.33,50 kg bag,AgriCorp National Supplies,North Zone Fertilizer Outlet #101,North Zone,15.9,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,495.44,50 kg bag,GreenField Bio Inputs,North Zone Fertilizer Outlet #102,North Zone,24.2,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,500.4,50 kg bag,State Farm Cooperative Society,South Zone Fertilizer Outlet #101,South Zone,6.3,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,466.04,50 kg bag,Kisan Seva Kendra,South Zone Fertilizer Outlet #102,South Zone,20.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,470.16,50 kg bag,National Agri Retail Hub,Central Zone Fertilizer Outlet #101,Central Zone,6.5,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,491.75,50 kg bag,AgriCorp National Supplies,Central Zone Fertilizer Outlet #102,Central Zone,11.3,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,476.57,50 kg bag,National Agri Retail Hub,East Zone Fertilizer Outlet #101,East Zone,36.7,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,502.59,50 kg bag,Kisan Seva Kendra,East Zone Fertilizer Outlet #102,East Zone,2.3,Out of Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,467.26,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #101,West Zone,37.6,In Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC
+Fertilizer,SSP 16% P,General,503.73,50 kg bag,Kisan Seva Kendra,West Zone Fertilizer Outlet #102,West Zone,4.8,Limited Stock,Fertilizer Dealer Registry,2026-09-27 06:00 UTC

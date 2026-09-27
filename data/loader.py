@@ -8,6 +8,7 @@ import os
 import numpy as np
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "Crop_recommendation.csv")
+FERTILIZER_DATA_PATH = os.path.join(os.path.dirname(__file__), "Fertilizer_prediction.csv")
 
 def load_crop_dataset() -> pd.DataFrame:
     """Load the Crop Recommendation agricultural dataset."""
@@ -17,6 +18,12 @@ def load_crop_dataset() -> pd.DataFrame:
     else:
         # Fallback generator if CSV is missing
         return generate_fallback_dataset()
+
+def load_fertilizer_dataset() -> pd.DataFrame:
+    """Load the historical Fertilizer Prediction dataset."""
+    if os.path.exists(FERTILIZER_DATA_PATH):
+        return pd.read_csv(FERTILIZER_DATA_PATH)
+    return pd.DataFrame()
 
 def generate_fallback_dataset() -> pd.DataFrame:
     """Fallback generator in case dataset file is missing."""

@@ -27,6 +27,8 @@ from regression.engine import AgriculturalRegressionEngine
 from clustering.ui import render_clustering_page
 from clustering.engine import AgriculturalClusteringEngine
 from decision_support.ui import render_decision_support_page
+from market.ui import render_market_intelligence_page
+from location.ui import render_location_intelligence_page
 
 # Set Page Config
 st.set_page_config(
@@ -61,6 +63,8 @@ navigation_selection = st.sidebar.selectbox(
         "Regression",
         "Clustering",
         "Decision Support",
+        "Market Intelligence",
+        "Location Intelligence",
         "Model Evaluation"
     ]
 )
@@ -181,6 +185,12 @@ elif navigation_selection == "Clustering":
 
 elif navigation_selection == "Decision Support":
     render_decision_support_page(df_raw)
+
+elif navigation_selection == "Market Intelligence":
+    render_market_intelligence_page(df_raw)
+
+elif navigation_selection == "Location Intelligence":
+    render_location_intelligence_page(df_raw)
 
 elif navigation_selection == "Model Evaluation":
     render_header(
