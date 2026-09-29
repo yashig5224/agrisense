@@ -1,0 +1,41 @@
+State,District,Market_APMC,Commodity,Variety,Min_Price_INR_Quintal,Max_Price_INR_Quintal,Modal_Price_INR_Quintal,Unit,Price_Trend,Data_Source,Arrival_Date
+Maharashtra,Pune,Pune APMC (Gultekdi),Rice,Kolam / Sona Masuri,3200,4100,3650,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC (Gultekdi),Pomegranate,Bhagwa,7500,14000,10500,₹/quintal,Upward (+2.1%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC (Gultekdi),Grapes,Thompson Seedless,4500,8200,6400,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC (Gultekdi),Chickpea,Desi Chana,5400,6150,5850,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC (Gultekdi),Maize,Yellow Hybrid,2100,2450,2280,₹/quintal,Downward (-1.2%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Manchar APMC,Rice,Common,3100,3800,3500,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nashik,Nashik APMC,Grapes,Export Grade,5200,9500,7200,₹/quintal,Upward (+1.8%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nashik,Lasalgaon APMC,Maize,Hybrid Yellow,2080,2420,2250,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nashik,Nashik APMC,Pomegranate,Arakta,6800,12500,9400,₹/quintal,Upward (+1.5%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nagpur,Nagpur APMC (Kalamna),Orange,Nagpur Santra,3200,5800,4500,₹/quintal,Upward (+3.2%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nagpur,Nagpur APMC (Kalamna),Cotton,Medium Staple (Shankar-6),6600,7450,7120,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nagpur,Nagpur APMC (Kalamna),Pigeonpeas,Tur White,8800,10500,9800,₹/quintal,Upward (+1.4%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Kolhapur,Kolhapur APMC,Rice,Indrayani,3400,4400,3900,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Uttar Pradesh,Lucknow,Lucknow APMC (Dubagga),Rice,Basmati Common,2800,3600,3250,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Uttar Pradesh,Lucknow,Lucknow APMC (Dubagga),Mango,Dasheri / Chausa,2800,4600,3700,₹/quintal,Seasonal High,Agmarknet / DMI (MoA&FW),2026-09-27
+Uttar Pradesh,Agra,Agra APMC,Chickpea,Desi Chana,5300,6050,5750,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Uttar Pradesh,Varanasi,Varanasi APMC,Rice,Common,2750,3450,3150,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Punjab,Ludhiana,Ludhiana Grain Market,Rice,PR-126 / PR-131,2300,2480,2400,₹/quintal,MSP Pegged,Agmarknet / DMI (MoA&FW),2026-09-27
+Punjab,Ludhiana,Ludhiana Grain Market,Maize,Kharif Yellow,2050,2350,2200,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Punjab,Bhatinda,Bhatinda Mandi,Cotton,American Cotton,6800,7600,7250,₹/quintal,Upward (+1.6%),Agmarknet / DMI (MoA&FW),2026-09-27
+Madhya Pradesh,Indore,Indore APMC (Choithram),Chickpea,Kabuli / Dollar Chana,8500,12800,10500,₹/quintal,Upward (+2.4%),Agmarknet / DMI (MoA&FW),2026-09-27
+Madhya Pradesh,Indore,Indore APMC (Choithram),Maize,Hybrid,2100,2420,2260,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Madhya Pradesh,Bhopal,Bhopal APMC (Karond),Chickpea,Desi Chana,5400,6200,5850,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Gujarat,Rajkot,Rajkot APMC (Bedi),Cotton,Shankar-6,6900,7700,7380,₹/quintal,Upward (+1.9%),Agmarknet / DMI (MoA&FW),2026-09-27
+Gujarat,Surat,Surat APMC,Banana,Grand Naine (G-9),1400,2400,1850,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Karnataka,Dharwad,Dharwad APMC,Cotton,DCH-32,6700,7500,7180,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Karnataka,Dharwad,Hubballi APMC,Maize,South Hybrid,2080,2400,2240,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Karnataka,Mysuru,Mysuru Bandipalya APMC,Rice,Jothish / Sona Masuri,3100,3950,3550,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC,Kidneybeans,Rajma Chitra,8200,11500,9600,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Solapur,Solapur APMC,Mothbeans,Matki Desi,6200,7800,7100,₹/quintal,Upward (+1.1%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nashik,Lasalgaon APMC,Mungbean,Moong Green,7200,8900,8150,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Nagpur,Nagpur APMC,Blackgram,Urad Black,6800,8400,7650,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Madhya Pradesh,Bhopal,Bhopal APMC,Lentil,Masoor Bold,5800,6900,6420,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Solapur,Solapur APMC,Watermelon,Namdhari Sugar Baby,900,1700,1350,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Uttar Pradesh,Agra,Agra APMC,Muskmelon,Kharbooja Hara,1200,2200,1650,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Himachal Pradesh,Shimla,Dhalli Mandi (Shimla),Apple,Royal Delicious,5500,11500,8200,₹/quintal,Upward (+2.5%),Agmarknet / DMI (MoA&FW),2026-09-27
+Maharashtra,Pune,Pune APMC,Papaya,Taiwan Red Lady (786),1600,2900,2200,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+Kerala,Kozhikode,Kozhikode Mandi,Coconut,Copra / Fresh Whole,2600,3800,3200,₹/quintal,Stable,Agmarknet / DMI (MoA&FW),2026-09-27
+West Bengal,Kolkata,Kolkata Jute Market,Jute,TD-5 Raw Jute,4900,5850,5420,₹/quintal,MSP Pegged,Agmarknet / DMI (MoA&FW),2026-09-27
+Karnataka,Chikkamagaluru,Chikkamagaluru Market,Coffee,Arabica Plantation A,14500,19500,17200,₹/quintal,Upward (+1.8%),Agmarknet / DMI (MoA&FW),2026-09-27

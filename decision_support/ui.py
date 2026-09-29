@@ -9,11 +9,11 @@ import pandas as pd
 from utils.helpers import render_header, render_metric_card
 from decision_support.engine import AgriculturalDecisionSupportEngine
 
-def render_decision_support_page(df_raw: pd.DataFrame):
-    """Render Agronomic Decision Support System Advisory dashboard with Fertilizer Recommendations."""
+def render_decision_intelligence_page(df_raw: pd.DataFrame):
+    """Render Agronomic Decision Intelligence Advisory dashboard with Fertilizer Recommendations."""
     render_header(
-        "Agronomic Decision Support & Fertilizer Engine",
-        "Interactive multi-model decision framework providing data-driven crop selection, fertilizer recommendation, cluster profiling, and yield estimation."
+        "Decision Intelligence Workspace",
+        "Analyze agricultural conditions and combine available model and historical-data insights."
     )
 
     # Disclaimer Box
@@ -85,13 +85,16 @@ def render_decision_support_page(df_raw: pd.DataFrame):
         st.write(f"- **Gaussian Naive Bayes Recommendation**: **{advisory['nb_predicted_crop'].title()}** ({advisory['nb_confidence_pct']}% confidence)")
         st.write(f"- **Predicted Yield Potential**: **{advisory['estimated_yield']} Tons / Hectare**")
 
-        st.markdown("### Market Intelligence Quick Lookup")
-        from market.provider import MarketDataProvider
-        mkt_info = MarketDataProvider.get_crop_market_info(advisory["nb_predicted_crop"])
+        st.markdown("### Indian Mandi Market Intelligence Lookup (Agmarknet)")
+        from data.india.provider import IndianAgriculturalDataProvider
+        mkt_info = IndianAgriculturalDataProvider.get_crop_mandi_info(advisory["nb_predicted_crop"])
         if mkt_info.get("status") == "SUCCESS":
-            st.write(f"- **Latest Market Commodity Price**: **₹ {mkt_info['latest_price']:,.2f} / Quintal** ({mkt_info['market_location']}, Trend: {mkt_info['price_trend']})")
+            st.write(f"- **Benchmark APMC Mandi Modal Price**: **₹ {mkt_info['latest_price']:,.2f} / Quintal** ({mkt_info['market_apmc']}, {mkt_info['district']}, {mkt_info['state']})")
+            st.write(f"- **Mandi Price Trend**: **{mkt_info['price_trend']}** | **Arrival Date**: **{mkt_info['arrival_date']}**")
+            st.caption(f"Provenance: {mkt_info['provenance']}")
         else:
-            st.write(f"- **Market Price**: Market registry lookup available in Market Intelligence tab.")
+            st.write("- **APMC Mandi Price**: Indian market registry lookup available in Market Intelligence tab.")
+
 
     with tab2:
         st.subheader("Data-Driven Fertilizer Recommendation Engine")
@@ -146,3 +149,6 @@ def render_decision_support_page(df_raw: pd.DataFrame):
         ])
         st.dataframe(comp_df, use_container_width=True)
         st.caption(f"Based on {hist['crop_sample_count']} historical dataset records for {advisory['nb_predicted_crop']}.")
+
+render_decision_support_page = render_decision_intelligence_page
+

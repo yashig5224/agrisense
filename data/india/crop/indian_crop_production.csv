@@ -1,0 +1,28 @@
+State,District,Crop,Crop_Category,Season,Area_Hectares,Production_Tonnes,Yield_Tonnes_Ha,Source,Reference_Year
+Maharashtra,Pune,Sugarcane,Cash Crop,Annual,128500,11565000,90.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Pune,Pomegranate,Horticulture,Annual,42000,546000,13.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Pune,Grapes,Horticulture,Annual,38000,836000,22.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Pune,Rice,Cereal,Kharif,58200,168780,2.9,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Pune,Chickpea,Pulses,Rabi,64500,77400,1.2,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Nashik,Grapes,Horticulture,Annual,65000,1625000,25.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Nashik,Maize,Cereal,Kharif,178000,605200,3.4,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Nagpur,Orange,Horticulture,Annual,85000,765000,9.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Nagpur,Cotton,Fiber,Kharif,142000,68160,0.48,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Maharashtra,Nagpur,Pigeonpeas,Pulses,Kharif,68000,74800,1.1,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Uttar Pradesh,Lucknow,Rice,Cereal,Kharif,88000,246400,2.8,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Uttar Pradesh,Lucknow,Mango,Horticulture,Annual,26000,312000,12.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Uttar Pradesh,Agra,Chickpea,Pulses,Rabi,48000,67200,1.4,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Uttar Pradesh,Kanpur Nagar,Rice,Cereal,Kharif,64000,179200,2.8,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Uttar Pradesh,Varanasi,Rice,Cereal,Kharif,52000,150800,2.9,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Punjab,Ludhiana,Rice,Cereal,Kharif,256000,1152000,4.5,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Punjab,Ludhiana,Maize,Cereal,Kharif,22000,90200,4.1,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Punjab,Bhatinda,Cotton,Fiber,Kharif,95000,71250,0.75,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Madhya Pradesh,Indore,Chickpea,Pulses,Rabi,86000,129000,1.5,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Madhya Pradesh,Indore,Maize,Cereal,Kharif,45000,144000,3.2,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Madhya Pradesh,Bhopal,Chickpea,Pulses,Rabi,54000,75600,1.4,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Gujarat,Rajkot,Cotton,Fiber,Kharif,285000,176700,0.62,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Gujarat,Surat,Banana,Horticulture,Annual,24000,1440000,60.0,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Gujarat,Ahmedabad,Rice,Cereal,Kharif,115000,322000,2.8,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Karnataka,Dharwad,Cotton,Fiber,Kharif,84000,46200,0.55,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Karnataka,Dharwad,Maize,Cereal,Kharif,92000,322000,3.5,"Directorate of Economics and Statistics, MoA&FW",2023-24
+Karnataka,Mysuru,Rice,Cereal,Kharif,98000,343000,3.5,"Directorate of Economics and Statistics, MoA&FW",2023-24

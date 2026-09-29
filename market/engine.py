@@ -52,3 +52,41 @@ class AgriculturalMarketEngine:
             "estimated_cost_per_hectare": cost_per_ha,
             "disclaimer": "This is an input-cost estimation calculator for budgeting support, not a guaranteed profit predictor."
         }
+
+
+class MarketIntelligenceEngine:
+    """Compatibility wrapper for market intelligence queries.
+
+    Delegates to MarketDataProvider (which uses IndianAgriculturalDataProvider)
+    and normalises the crop price response for engine_test.py consumers.
+    """
+
+    def get_crop_price(self, crop: str, state: str = None, district: str = None) -> Dict[str, Any]:
+        """Return the latest mandi price for a crop as a flat dict.
+
+        Result includes ``Latest_Price_Per_Quintal`` and metadata fields from
+        the underlying Agmarknet dataset.
+        """
+        from market.provider import MarketDataProvider
+        raw = MarketDataProvider.get_crop_market_info(crop, state=state, district=district)
+
+        # raw may be a dict with 'modal_price', 'min_price', 'max_price' etc.
+        # Normalise to the key expected by engine_test.py.
+        price_val = (
+            raw.get("modal_price")
+            or raw.get("Latest_Price_Per_Quintal")
+            or raw.get("price")
+            or 0.0
+        )
+        return {
+            "crop": crop,
+            "Latest_Price_Per_Quintal": price_val,
+            "state": raw.get("state", state),
+            "district": raw.get("district", district),
+            "source": raw.get("source", "Agmarknet / IndianAgriculturalDataProvider"),
+        }
+
+    def calculate_input_costs(self, **kwargs) -> Dict[str, Any]:
+        """Delegate to AgriculturalMarketEngine.calculate_input_costs."""
+        return AgriculturalMarketEngine.calculate_input_costs(**kwargs)
+

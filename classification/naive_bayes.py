@@ -93,3 +93,7 @@ class AgriculturalNaiveBayesClassifier:
             "confidence_pct": round(prob_df.iloc[0]["Probability"], 2),
             "probabilities_table": prob_df
         }
+
+
+# Compatibility alias — engine_test.py and other callers import this name.
+GaussianNBClassifier = AgriculturalNaiveBayesClassifier

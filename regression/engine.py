@@ -103,3 +103,65 @@ class AgriculturalRegressionEngine:
             "train_size": len(X_train),
             "test_size": len(X_test)
         }
+
+
+class DualRegressionEngine:
+    """Convenience wrapper that trains all four regressors on both agricultural
+    datasets and returns results in a nested dict:
+
+        {
+            'crop_yield': {
+                'rf':  {'metrics': {'r2': ..., 'mae': ..., 'rmse': ...}, ...},
+                'gb':  {...},
+                'ridge': {...},
+                'linear': {...},
+            },
+            'soil_carbon': {
+                'rf': {...},
+                ...
+            }
+        }
+    """
+
+    _MODEL_MAP = {
+        "rf": "Random Forest Regressor",
+        "gb": "Gradient Boosting Regressor",
+        "ridge": "Ridge Regression",
+        "linear": "Linear Regression",
+    }
+
+    def train_and_evaluate_all(self, test_size: float = 0.20, random_state: int = 42) -> Dict[str, Any]:
+        """Run regression on both datasets with all four model types."""
+        results: Dict[str, Any] = {}
+
+        dataset_keys = {
+            "crop_yield": "Dataset 1: Crop Yield Prediction",
+            "soil_carbon": "Dataset 2: Soil Organic Carbon",
+        }
+
+        for ds_key, ds_label in dataset_keys.items():
+            df, target, features = AgriculturalRegressionEngine.load_regression_dataset(ds_label)
+            results[ds_key] = {}
+            for short_name, model_type in self._MODEL_MAP.items():
+                raw = AgriculturalRegressionEngine.train_and_evaluate(
+                    df, target, features,
+                    model_type=model_type,
+                    test_size=test_size,
+                    random_state=random_state
+                )
+                results[ds_key][short_name] = {
+                    "metrics": {
+                        "r2": raw["r2"],
+                        "mae": raw["mae"],
+                        "mse": raw["mse"],
+                        "rmse": raw["rmse"],
+                    },
+                    "eval_df": raw["eval_df"],
+                    "train_size": raw["train_size"],
+                    "test_size": raw["test_size"],
+                    "model_name": raw["model_name"],
+                    "target_col": raw["target_col"],
+                    "features": raw["features"],
+                }
+        return results
+

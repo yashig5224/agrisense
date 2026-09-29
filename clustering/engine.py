@@ -104,3 +104,46 @@ class AgriculturalClusteringEngine:
             insight = f"**{cid}** ({cnt} records): Characterized by mean values -> " + ", ".join(highlights[:4]) + "."
             insights.append(insight)
         return insights
+
+
+class DualClusteringEngine:
+    """Compatibility wrapper that runs K-Means on both agricultural datasets
+    and returns results in the shape expected by engine_test.py:
+
+        {
+            'crop':  {'silhouette': float, 'inertia': float, 'n_clusters': int, ...},
+            'soil':  {'silhouette': float, ...},
+        }
+    """
+
+    def run_clustering(
+        self,
+        n_clusters_crop: int = 4,
+        n_clusters_soil: int = 4,
+        random_state: int = 42
+    ) -> Dict[str, Any]:
+        """Execute K-Means clustering on both datasets and return combined results."""
+        results: Dict[str, Any] = {}
+
+        dataset_map = {
+            "crop": ("Dataset 1: Crop & Microclimate Telemetry", n_clusters_crop),
+            "soil": ("Dataset 2: Soil & Water Quality", n_clusters_soil),
+        }
+
+        for key, (ds_label, n_k) in dataset_map.items():
+            df, features = AgriculturalClusteringEngine.load_clustering_dataset(ds_label)
+            raw = AgriculturalClusteringEngine.execute_kmeans(
+                df, feature_cols=features, n_clusters=n_k, random_state=random_state
+            )
+            results[key] = {
+                "silhouette": raw["silhouette_score"],
+                "inertia": raw["inertia"],
+                "n_clusters": raw["n_clusters"],
+                "cluster_profiles": raw["cluster_profiles"],
+                "pca_df": raw["pca_df"],
+                "pca_variance_explained": raw["pca_variance_explained"],
+                "clustered_df": raw["clustered_df"],
+            }
+
+        return results
+

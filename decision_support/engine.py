@@ -132,3 +132,60 @@ class AgriculturalDecisionSupportEngine:
             "historical_stats": hist_stats,
             "domain_synthesis": synthesis
         }
+
+
+class DecisionSupportEngine:
+    """Convenience wrapper around AgriculturalDecisionSupportEngine.
+
+    Loads the crop recommendation dataset automatically and exposes a flat
+    ``analyze()`` method matching the signature used by engine_test.py.
+    """
+
+    _DATA_PATH = None  # resolved lazily
+
+    def _get_df(self) -> pd.DataFrame:
+        import os
+        if self._DATA_PATH is None:
+            base = os.path.dirname(os.path.dirname(__file__))
+            path = os.path.join(base, "data", "Crop_recommendation.csv")
+        else:
+            path = self._DATA_PATH
+        return pd.read_csv(path)
+
+    def analyze(
+        self,
+        n: float,
+        p: float,
+        k: float,
+        temp: float,
+        hum: float,
+        ph: float,
+        rain: float,
+    ) -> Dict[str, Any]:
+        """Run the full decision support pipeline and return a flat result dict.
+
+        Returns keys compatible with engine_test.py:
+            j48_crop, nb_crop, nb_confidence_pct, assigned_cluster,
+            estimated_yield, matched_rules, fertilizer_recommendation,
+            historical_stats, domain_synthesis.
+        """
+        df = self._get_df()
+        inputs = {
+            "N": n, "P": p, "K": k,
+            "temperature": temp, "humidity": hum,
+            "ph": ph, "rainfall": rain,
+        }
+        raw = AgriculturalDecisionSupportEngine.generate_advisory(df, inputs)
+
+        return {
+            "j48_crop": raw.get("j48_predicted_crop", raw.get("nb_predicted_crop")),
+            "nb_crop": raw.get("nb_predicted_crop"),
+            "nb_confidence_pct": raw.get("nb_confidence_pct"),
+            "assigned_cluster": raw.get("assigned_cluster"),
+            "estimated_yield": raw.get("estimated_yield"),
+            "matched_rules": raw.get("matched_rules", []),
+            "fertilizer_recommendation": raw.get("fertilizer_recommendation"),
+            "historical_stats": raw.get("historical_stats"),
+            "domain_synthesis": raw.get("domain_synthesis"),
+        }
+

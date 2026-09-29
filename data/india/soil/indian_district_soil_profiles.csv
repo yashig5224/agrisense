@@ -1,0 +1,11 @@
+State,District,Soil_Type,Avg_Available_N_kg_ha,N_Status,Avg_Available_P_kg_ha,P_Status,Avg_Available_K_kg_ha,K_Status,Mean_pH,pH_Reaction,Organic_Carbon_Pct,OC_Status,Source
+Maharashtra,Pune,Medium Black / Clayey Loam,185.0,Low (< 280 kg/ha),18.5,Medium (10 - 25 kg/ha),310.0,High (> 280 kg/ha),7.4,Neutral to Mildly Alkaline,0.58,Medium (0.50 - 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Maharashtra,Nashik,Black & Red Sandy Loam,192.0,Low (< 280 kg/ha),22.0,Medium (10 - 25 kg/ha),295.0,High (> 280 kg/ha),7.1,Neutral,0.62,Medium (0.50 - 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Maharashtra,Nagpur,Deep Black Soil (Vertisols),160.0,Low (< 280 kg/ha),14.2,Medium (10 - 25 kg/ha),340.0,High (> 280 kg/ha),7.8,Moderately Alkaline,0.52,Medium (0.50 - 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Maharashtra,Kolhapur,Lateritic & Deep Black Loam,220.0,Low (< 280 kg/ha),26.5,High (> 25 kg/ha),245.0,Medium (140 - 280 kg/ha),6.6,Slightly Acidic to Neutral,0.78,High (> 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Uttar Pradesh,Lucknow,Alluvial Loam (Inceptisols),170.0,Low (< 280 kg/ha),16.0,Medium (10 - 25 kg/ha),210.0,Medium (140 - 280 kg/ha),7.6,Slightly Alkaline,0.45,Low (< 0.50%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Uttar Pradesh,Agra,Sandy Alluvial,150.0,Low (< 280 kg/ha),12.5,Medium (10 - 25 kg/ha),195.0,Medium (140 - 280 kg/ha),7.9,Alkaline,0.38,Low (< 0.50%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Punjab,Ludhiana,Alluvial Loamy Sand / Silt Loam,165.0,Low (< 280 kg/ha),31.0,High (> 25 kg/ha),180.0,Medium (140 - 280 kg/ha),7.7,Slightly Alkaline,0.48,Low (< 0.50%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Madhya Pradesh,Indore,Medium Black Soil,175.0,Low (< 280 kg/ha),15.0,Medium (10 - 25 kg/ha),360.0,High (> 280 kg/ha),7.5,Neutral to Alkaline,0.54,Medium (0.50 - 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Gujarat,Rajkot,Medium Black Clayey,155.0,Low (< 280 kg/ha),13.8,Medium (10 - 25 kg/ha),320.0,High (> 280 kg/ha),8.0,Alkaline,0.42,Low (< 0.50%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
+Karnataka,Dharwad,Medium to Deep Black Loam,190.0,Low (< 280 kg/ha),19.0,Medium (10 - 25 kg/ha),280.0,High (> 280 kg/ha),7.3,Neutral,0.6,Medium (0.50 - 0.75%),"Soil Health Card Portal (DAC&FW, MoA&FW)"
