@@ -167,6 +167,125 @@ def render_analytics_workspace(df_raw: pd.DataFrame):
                 render_metric_card("Model Agreement Status", "Model Difference", f"NB: {nb_crop} vs J48: {j48_crop}")
 
         st.markdown("---")
+
+        # ------------------------------------------------------------------
+        # DWM REPORT FIGURES: Accuracy, Precision, Confusion Matrices
+        # ------------------------------------------------------------------
+        st.markdown("### Classification Model Comparison Graphs")
+
+        # Figure 1 & 2 side by side
+        fig_col1, fig_col2 = st.columns(2)
+
+        with fig_col1:
+            st.markdown("#### Accuracy Comparison")
+            acc_df = pd.DataFrame([
+                {"Model": "WEKA J48", "Accuracy (%)": round(j48_res["accuracy"], 2)},
+                {"Model": "Gaussian Naive Bayes", "Accuracy (%)": round(nb_res["accuracy"], 2)},
+            ])
+            fig_acc = px.bar(
+                acc_df,
+                x="Model",
+                y="Accuracy (%)",
+                color="Model",
+                color_discrete_sequence=["#2D5A27", "#739072"],
+                title="J48 vs Naive Bayes — Accuracy Comparison",
+                text="Accuracy (%)"
+            )
+            fig_acc.update_traces(texttemplate="%{text:.2f}%", textposition="outside")
+            fig_acc.update_layout(
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
+                font=dict(family="Inter, sans-serif", color="#1A202C"),
+                showlegend=False,
+                yaxis=dict(
+                    range=[0, 105],
+                    showgrid=True,
+                    gridcolor="#E2E8F0",
+                    title="Accuracy (%)"
+                ),
+                xaxis=dict(title=""),
+                height=380
+            )
+            st.plotly_chart(fig_acc, use_container_width=True)
+
+        with fig_col2:
+            st.markdown("#### Precision Comparison")
+            # Both precision_weighted (J48) and precision (NB) are on 0–1 scale
+            prec_df = pd.DataFrame([
+                {"Model": "WEKA J48", "Precision (%)": round(j48_res["precision_weighted"] * 100, 2)},
+                {"Model": "Gaussian Naive Bayes", "Precision (%)": round(nb_res["precision"] * 100, 2)},
+            ])
+            fig_prec = px.bar(
+                prec_df,
+                x="Model",
+                y="Precision (%)",
+                color="Model",
+                color_discrete_sequence=["#2D5A27", "#739072"],
+                title="J48 vs Naive Bayes — Precision Comparison",
+                text="Precision (%)"
+            )
+            fig_prec.update_traces(texttemplate="%{text:.2f}%", textposition="outside")
+            fig_prec.update_layout(
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
+                font=dict(family="Inter, sans-serif", color="#1A202C"),
+                showlegend=False,
+                yaxis=dict(
+                    range=[0, 105],
+                    showgrid=True,
+                    gridcolor="#E2E8F0",
+                    title="Precision (%)"
+                ),
+                xaxis=dict(title=""),
+                height=380
+            )
+            st.plotly_chart(fig_prec, use_container_width=True)
+
+        st.markdown("---")
+
+        # Figure 3: Confusion Matrices
+        st.markdown("### Confusion Matrices")
+        cm_col1, cm_col2 = st.columns(2)
+
+        with cm_col1:
+            st.markdown("#### J48 Confusion Matrix")
+            j48_cm_fig = px.imshow(
+                j48_res["confusion_matrix"],
+                x=j48_res["classes"],
+                y=j48_res["classes"],
+                labels=dict(x="Predicted Crop", y="Actual Crop", color="Count"),
+                color_continuous_scale=[[0, "#F4F6F4"], [0.5, "#8B9D83"], [1.0, "#1B3B18"]],
+                title="J48 Confusion Matrix"
+            )
+            j48_cm_fig.update_layout(
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
+                font=dict(family="Inter, sans-serif", color="#1A202C"),
+                xaxis=dict(tickangle=-45),
+                height=520
+            )
+            st.plotly_chart(j48_cm_fig, use_container_width=True)
+
+        with cm_col2:
+            st.markdown("#### Naive Bayes Confusion Matrix")
+            nb_cm_fig = px.imshow(
+                nb_res["confusion_matrix"],
+                x=nb_res["classes"],
+                y=nb_res["classes"],
+                labels=dict(x="Predicted Crop", y="Actual Crop", color="Count"),
+                color_continuous_scale=[[0, "#F4F6F4"], [0.5, "#8B9D83"], [1.0, "#1B3B18"]],
+                title="Gaussian Naive Bayes Confusion Matrix"
+            )
+            nb_cm_fig.update_layout(
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
+                font=dict(family="Inter, sans-serif", color="#1A202C"),
+                xaxis=dict(tickangle=-45),
+                height=520
+            )
+            st.plotly_chart(nb_cm_fig, use_container_width=True)
+
+        st.markdown("---")
         st.markdown("### Naive Bayes Posterior Class Probabilities")
         st.dataframe(nb_pred_info["probabilities_table"].head(6), use_container_width=True)
 
